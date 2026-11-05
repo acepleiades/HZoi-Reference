@@ -18,6 +18,9 @@ local snapshot={by_kind={scene_pack=docs}}
 for kind,file in pairs({tag_dictionary='tags',action_dictionary='actions'})do snapshot.by_kind[kind]={{owner='scenezoi',source=file,data=read('packs/scenezoi/metadata/'..file..'.json')}}end
 for kind,file in pairs({body_profile='body_layout',material_profile='skin_hair',coverage_attachment='region_attachment'})do snapshot.by_kind[kind]={{source=file,data=read(TEST_CONTENT_ROOT..'/packs/hzoi/profiles/'..file..'.json')}}end
 local profiles=P.compile(snapshot);assert(#profiles.warnings==0 and profiles.rules['hzoi.region_attachment'])
+local body=profiles.body['hzoi.body_layout']
+assert(body.schema_version==2 and body.section==17 and body.coverage_bit==17)
+assert(not body.mesh_name and not body.material_slot and not body.compatible_layouts,'Section-preserving bodies must not require a named replacer')
 local invalid=V.copy(snapshot);invalid.by_kind.coverage_attachment[1].data.section=5
 assert(not next(P.compile(invalid).rules))
 package.loaded['SceneZOI.DataFiles']={get=function()return snapshot end}

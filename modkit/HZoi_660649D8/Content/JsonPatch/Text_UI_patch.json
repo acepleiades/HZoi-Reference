@@ -8,7 +8,7 @@
       "Query": "Text_UI",
       "Value": {
         "Id": "SceneZOI_Declaration_hzoi__body_profile__body_layout",
-        "Text": "{\"schema_version\":1,\"kind\":\"body_profile\",\"owner\":\"hzoi\",\"data\":{\"schema_version\":1,\"id\":\"hzoi.body_layout\",\"section\":17,\"coverage_bit\":17,\"full_coverage_exception\":true,\"mesh_name\":\"SKM_Male_Base\",\"minimum_materials\":32,\"material_slot\":\"Material_018\",\"patch_mesh\":\"/HZoi_660649D8/Compatibility/StockCoveragePatch.StockCoveragePatch\",\"patch_material_slot\":\"shader_body_shader18\",\"morph\":\"Body_Muscle\"}}"
+        "Text": "{\"schema_version\":1,\"kind\":\"body_profile\",\"owner\":\"hzoi\",\"data\":{\"schema_version\":2,\"id\":\"hzoi.body_layout\",\"section\":17,\"coverage_bit\":17,\"full_coverage_exception\":true,\"patch_mesh\":\"/HZoi_660649D8/Compatibility/StockCoveragePatch.StockCoveragePatch\",\"patch_material_slot\":\"shader_body_shader18\",\"morph\":\"Body_Muscle\"}}"
       },
       "Enabled": true
     },

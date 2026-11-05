@@ -22,7 +22,7 @@ ready-to-install player release.
 - [Expression sets](packs/hzoi/expressions/) and [voice declarations](packs/hzoi/voices/):
   optional libraries supplied by a content pack, not hardcoded framework defaults.
 - [Coverage, body and material profiles](packs/hzoi/profiles/): conditional male
-  anatomy activation, retained attachments and declared mesh compatibility.
+  anatomy activation, retained attachments and declared body-region compatibility.
 - [Localization](packs/hzoi/localization/text.json): 15-language display labels
   through the same native declaration transport.
 - Owned native animation, mesh, skeleton, material and texture assets under
@@ -58,6 +58,15 @@ API separately. HZoi Gameplay is not included.
 
 SceneZOI works independently of this pack. Authors can study these patterns while
 using their own scene IDs, assets, content and permissions.
+
+## Body-region profile
+
+The current example uses body-profile schema 2, requiring the generic section
+support in the matching SceneZOI source. It declares section/coverage bit 17 and
+the pack-owned patch resources. Body mesh/material names are not allowlisted:
+stock-compatible replacements preserving that mapping are handled automatically.
+Moving the region or changing skin/skeleton conventions requires separate work.
+See SceneZOI's current body-profile contract when adapting this example.
 
 ## Developer checks
 

@@ -10,7 +10,7 @@
     "remote_configured": false
   },
   "repository_wide_license_provided": false,
-  "attribution": "Genital mesh attribution: “Free Blender Model - The Vagrant by Ryan Reos” subject to its own license.",
+  "attribution": "Genital mesh attribution: \u201cFree Blender Model - The Vagrant by Ryan Reos\u201d subject to its own license.",
   "audio": {
     "original_recordings_included": false,
     "original_soundwave_packages_included": false,
@@ -61,5 +61,17 @@
     "This report describes preparation-time checks, not acceptance of a new player release.",
     "The original production FBX and Maya files are not included.",
     "The original private repository, native project and player installation were not modified."
-  ]
+  ],
+  "generic_body_region_update": {
+    "date": "2026-11-05",
+    "body_profile_schema": 2,
+    "declared_section": 17,
+    "body_name_allowlist": false,
+    "build_passed": true,
+    "safety_and_integration_checks_passed": true,
+    "silent_wavs_verified": 702,
+    "unchanged_non_audio_assets_verified": 23,
+    "original_soundwaves_present": false,
+    "note": "Local authoring update only; no reference native project or installed package modified, no commit/publish."
+  }
 }
