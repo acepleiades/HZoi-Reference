@@ -1,0 +1,617 @@
+{
+  "schema_version": 3,
+  "id": "hzoi",
+  "nodes": [
+    {
+      "id": "hzoi.standing_idle",
+      "label": "HZoi Standing Idle",
+      "kind": "loop",
+      "duration": 3,
+      "fps": 60,
+      "tracks": {
+        "male": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_M.HZOI_Standing_idle_M",
+        "female": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_F.HZOI_Standing_idle_F"
+      },
+      "navigation": [
+        {
+          "id": "neutral",
+          "label": "Return...",
+          "target": "scenezoi.standing_idle"
+        },
+        {
+          "id": "standing_hand_job",
+          "target": "hzoi.standing_hand_job"
+        },
+        {
+          "id": "standing_kneeling",
+          "target": "hzoi.standing_kneeling"
+        },
+        {
+          "id": "standing_rear",
+          "target": "hzoi.standing_rear"
+        }
+      ],
+      "participants": {
+        "male": {
+          "body": "male"
+        },
+        "female": {
+          "body": "female"
+        }
+      },
+      "anchor_participant": "male",
+      "gaze": {
+        "male": {
+          "participant": "female",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        },
+        "female": {
+          "participant": "male",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        }
+      },
+      "attachments": {
+        "male_anatomy": {
+          "participant": "male",
+          "socket": "pelvis",
+          "reference_bone": "pelvis",
+          "mesh": "/SceneZOI_93C44199/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
+          "animation": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+          "body_profile": "scenezoi.supponpon_tested",
+          "material_profile": "scenezoi.stock_skin_hair",
+          "when_undressed": true,
+          "retain_for_session": true,
+          "retained_tracks": {
+            "scenezoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+            "hzoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA"
+          }
+        }
+      },
+      "expressions": {
+        "male": {
+          "context": "Idle"
+        },
+        "female": {
+          "context": "Idle"
+        }
+      }
+    },
+    {
+      "id": "hzoi.standing_hand_job",
+      "label": "Standing Handjob",
+      "kind": "loop",
+      "duration": 10,
+      "fps": 60,
+      "tracks": {
+        "male": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_hand_job_M.HZOI_Standing_hand_job_M",
+        "female": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_hand_job_F.HZOI_Standing_hand_job_F"
+      },
+      "outfits": {
+        "male": {
+          "remove_slots": [
+            "Top",
+            "Bottom",
+            "Full",
+            "Jacket",
+            "Shoes",
+            "Socks",
+            "InnerTop",
+            "InnerUnder",
+            "Stockings",
+            "Gloves",
+            "Scarf"
+          ]
+        }
+      },
+      "navigation": [
+        {
+          "id": "idle",
+          "label": "Return...",
+          "target": "hzoi.standing_idle"
+        }
+      ],
+      "participants": {
+        "male": {
+          "body": "male"
+        },
+        "female": {
+          "body": "female"
+        }
+      },
+      "anchor_participant": "male",
+      "gaze": {
+        "male": {
+          "participant": "female",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        },
+        "female": {
+          "participant": "male",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        }
+      },
+      "attachments": {
+        "male_anatomy": {
+          "participant": "male",
+          "socket": "pelvis",
+          "reference_bone": "pelvis",
+          "mesh": "/SceneZOI_93C44199/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
+          "animation": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_hand_job_MA.HZOI_Standing_hand_job_MA",
+          "body_profile": "scenezoi.supponpon_tested",
+          "material_profile": "scenezoi.stock_skin_hair",
+          "when_undressed": true,
+          "retain_for_session": true,
+          "retained_tracks": {
+            "scenezoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+            "hzoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA"
+          }
+        }
+      },
+      "expressions": {
+        "male": {
+          "context": "Pleasure"
+        },
+        "female": {
+          "context": "Pleasure"
+        }
+      },
+      "sfx": {
+        "contact": {
+          "mode": "bone_distance",
+          "owner": "female",
+          "sound_set": "hzoi.kutyu",
+          "source": [
+            {
+              "participant": "female",
+              "component": "body",
+              "bones": [
+                "hand_r"
+              ]
+            },
+            {
+              "participant": "male",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            }
+          ],
+          "distance": {
+            "from": {
+              "participant": "female",
+              "component": "body",
+              "bones": [
+                "hand_r"
+              ]
+            },
+            "to": {
+              "participant": "male",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            },
+            "max_distance_cm": 30,
+            "min_delta_cm": 0.01,
+            "cooldown": 0.15,
+            "sample_interval": 0.016666666666666666
+          },
+          "volume": 0.65,
+          "max_voices": 4
+        }
+      }
+    },
+    {
+      "id": "hzoi.standing_kneeling",
+      "label": "Standing Blowjob",
+      "kind": "loop",
+      "duration": 10,
+      "fps": 60,
+      "tracks": {
+        "male": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Male_standing_female_kneeling_fellatio_M.HZOI_Male_standing_female_kneeling_fellatio_M",
+        "female": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Male_standing_female_kneeling_fellatio_F.HZOI_Male_standing_female_kneeling_fellatio_F"
+      },
+      "outfits": {
+        "male": {
+          "remove_slots": [
+            "Top",
+            "Bottom",
+            "Full",
+            "Jacket",
+            "Shoes",
+            "Socks",
+            "InnerTop",
+            "InnerUnder",
+            "Stockings",
+            "Gloves",
+            "Scarf"
+          ]
+        }
+      },
+      "navigation": [
+        {
+          "id": "idle",
+          "label": "Return...",
+          "target": "hzoi.standing_idle"
+        }
+      ],
+      "participants": {
+        "male": {
+          "body": "male"
+        },
+        "female": {
+          "body": "female"
+        }
+      },
+      "anchor_participant": "male",
+      "gaze": {
+        "male": {
+          "participant": "female",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        },
+        "female": {
+          "participant": "male",
+          "component": "head",
+          "bones": [
+            "FACIAL_L_Eye",
+            "FACIAL_R_Eye"
+          ]
+        }
+      },
+      "attachments": {
+        "male_anatomy": {
+          "participant": "male",
+          "socket": "pelvis",
+          "reference_bone": "pelvis",
+          "mesh": "/SceneZOI_93C44199/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
+          "animation": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Male_standing_female_kneeling_fellatio_MA.HZOI_Male_standing_female_kneeling_fellatio_MA",
+          "body_profile": "scenezoi.supponpon_tested",
+          "material_profile": "scenezoi.stock_skin_hair",
+          "when_undressed": true,
+          "retain_for_session": true,
+          "retained_tracks": {
+            "scenezoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+            "hzoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA"
+          }
+        }
+      },
+      "expressions": {
+        "male": {
+          "context": "Pleasure"
+        },
+        "female": {
+          "context": "Pleasure",
+          "facial_pose": "scenezoi.open_o"
+        }
+      }
+    },
+    {
+      "id": "hzoi.standing_rear",
+      "label": "Standing Rear Sex",
+      "kind": "loop",
+      "duration": 10,
+      "fps": 60,
+      "tracks": {
+        "male": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_rear_sex_M.HZOI_Standing_rear_sex_M",
+        "female": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_rear_sex_F.HZOI_Standing_rear_sex_F"
+      },
+      "outfits": {
+        "male": {
+          "remove_slots": [
+            "Top",
+            "Bottom",
+            "Full",
+            "Jacket",
+            "Shoes",
+            "Socks",
+            "InnerTop",
+            "InnerUnder",
+            "Stockings",
+            "Gloves",
+            "Scarf"
+          ]
+        },
+        "female": {
+          "remove_slots": [
+            "Top",
+            "Bottom",
+            "Full",
+            "Jacket",
+            "Shoes",
+            "Socks",
+            "InnerTop",
+            "InnerUnder",
+            "Stockings",
+            "Gloves",
+            "Scarf"
+          ]
+        }
+      },
+      "navigation": [
+        {
+          "id": "idle",
+          "label": "Return...",
+          "target": "hzoi.standing_idle"
+        }
+      ],
+      "participants": {
+        "male": {
+          "body": "male"
+        },
+        "female": {
+          "body": "female"
+        }
+      },
+      "anchor_participant": "male",
+      "gaze": {
+        "male": {
+          "participant": "female",
+          "component": "body",
+          "bones": [
+            "pelvis"
+          ]
+        },
+        "female": {
+          "participant": "female",
+          "component": "body",
+          "bones": [
+            "upperarm_l"
+          ]
+        }
+      },
+      "attachments": {
+        "male_anatomy": {
+          "participant": "male",
+          "socket": "pelvis",
+          "reference_bone": "pelvis",
+          "mesh": "/SceneZOI_93C44199/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
+          "animation": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_rear_sex_MA.HZOI_Standing_rear_sex_MA",
+          "body_profile": "scenezoi.supponpon_tested",
+          "material_profile": "scenezoi.stock_skin_hair",
+          "when_undressed": true,
+          "retain_for_session": true,
+          "retained_tracks": {
+            "scenezoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+            "hzoi.standing_idle": "/SceneZOI_93C44199/HZoi/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA"
+          }
+        }
+      },
+      "expressions": {
+        "male": {
+          "context": "Pleasure"
+        },
+        "female": {
+          "context": "Pleasure"
+        }
+      },
+      "sfx": {
+        "contact": {
+          "mode": "bone_distance",
+          "owner": "male",
+          "sound_set": "hzoi.piston",
+          "source": [
+            {
+              "participant": "male",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            },
+            {
+              "participant": "female",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            }
+          ],
+          "distance": {
+            "from": {
+              "participant": "male",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            },
+            "to": {
+              "participant": "female",
+              "component": "body",
+              "bones": [
+                "pelvis"
+              ]
+            },
+            "max_distance_cm": 30,
+            "min_delta_cm": 0.01,
+            "cooldown": 0.15,
+            "sample_interval": 0.016666666666666666
+          },
+          "volume": 0.65,
+          "max_voices": 4
+        }
+      }
+    }
+  ],
+  "attachment_extensions": [
+    {
+      "hub": "scenezoi.standing_idle",
+      "source": "hzoi.standing_idle",
+      "attachment": "male_anatomy",
+      "participant": "male"
+    }
+  ],
+  "extensions": [
+    {
+      "hub": "scenezoi.standing_idle",
+      "id": "hzoi.enter",
+      "target": "hzoi.standing_idle"
+    }
+  ],
+  "sound_sets": {
+    "hzoi.kiss": {
+      "default": {
+        "clips": [
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_01.SW_kiss_01",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_02.SW_kiss_02",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_03.SW_kiss_03",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_04.SW_kiss_04",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_05.SW_kiss_05",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_06.SW_kiss_06",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_07.SW_kiss_07",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_08.SW_kiss_08",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_09.SW_kiss_09",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_10.SW_kiss_10",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_11.SW_kiss_11",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_12.SW_kiss_12",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_13.SW_kiss_13",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_14.SW_kiss_14",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/kiss/SW_kiss_15.SW_kiss_15"
+        ]
+      }
+    },
+    "hzoi.piston": {
+      "default": {
+        "clips": [
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_0.SW_pan_0",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_1.SW_pan_1",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_10.SW_pan_10",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_2.SW_pan_2",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_3.SW_pan_3",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_4.SW_pan_4",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_5.SW_pan_5",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_6.SW_pan_6",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_7.SW_pan_7",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_8.SW_pan_8",
+          "/SceneZOI_93C44199/HZoi/Audio/SFX/piston/SW_pan_9.SW_pan_9"
+        ]
+      }
+    },
+    "hzoi.kutyu": {
+      "variants": [
+        {
+          "scene_speed": 0.5,
+          "clips": [
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_01.SW_kutyu_A_01",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_02.SW_kutyu_A_02",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_03.SW_kutyu_A_03",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_04.SW_kutyu_A_04",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_05.SW_kutyu_A_05",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_06.SW_kutyu_A_06",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_07.SW_kutyu_A_07",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_08.SW_kutyu_A_08",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_09.SW_kutyu_A_09",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_10.SW_kutyu_A_10",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_11.SW_kutyu_A_11",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_12.SW_kutyu_A_12"
+          ]
+        },
+        {
+          "scene_speed": 1.0,
+          "clips": [
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_01.SW_kutyu_B_01",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_02.SW_kutyu_B_02",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_03.SW_kutyu_B_03",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_04.SW_kutyu_B_04",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_05.SW_kutyu_B_05",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_06.SW_kutyu_B_06",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_07.SW_kutyu_B_07",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_08.SW_kutyu_B_08",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_09.SW_kutyu_B_09",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_10.SW_kutyu_B_10",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_11.SW_kutyu_B_11",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_12.SW_kutyu_B_12",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_13.SW_kutyu_B_13",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_14.SW_kutyu_B_14",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_15.SW_kutyu_B_15",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_16.SW_kutyu_B_16",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_17.SW_kutyu_B_17",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_18.SW_kutyu_B_18",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_19.SW_kutyu_B_19"
+          ]
+        },
+        {
+          "scene_speed": 1.5,
+          "clips": [
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_01.SW_kutyu_C_01",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_02.SW_kutyu_C_02",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_03.SW_kutyu_C_03",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_04.SW_kutyu_C_04",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_05.SW_kutyu_C_05",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_06.SW_kutyu_C_06",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_07.SW_kutyu_C_07",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_08.SW_kutyu_C_08",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_09.SW_kutyu_C_09",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_10.SW_kutyu_C_10",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_11.SW_kutyu_C_11",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_12.SW_kutyu_C_12",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_13.SW_kutyu_C_13",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_14.SW_kutyu_C_14",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_15.SW_kutyu_C_15",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_16.SW_kutyu_C_16",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_17.SW_kutyu_C_17",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_18.SW_kutyu_C_18"
+          ]
+        },
+        {
+          "scene_speed": 2.0,
+          "clips": [
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_01.SW_kutyu_D_01",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_02.SW_kutyu_D_02",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_03.SW_kutyu_D_03",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_04.SW_kutyu_D_04",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_05.SW_kutyu_D_05",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_06.SW_kutyu_D_06",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_07.SW_kutyu_D_07",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_08.SW_kutyu_D_08",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_09.SW_kutyu_D_09",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_10.SW_kutyu_D_10",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_11.SW_kutyu_D_11",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_12.SW_kutyu_D_12",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_13.SW_kutyu_D_13",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_14.SW_kutyu_D_14",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_15.SW_kutyu_D_15",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_16.SW_kutyu_D_16",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_17.SW_kutyu_D_17",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_18.SW_kutyu_D_18",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_19.SW_kutyu_D_19",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_20.SW_kutyu_D_20",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_21.SW_kutyu_D_21",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_22.SW_kutyu_D_22",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_23.SW_kutyu_D_23",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_24.SW_kutyu_D_24",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_25.SW_kutyu_D_25",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_26.SW_kutyu_D_26",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_27.SW_kutyu_D_27",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_28.SW_kutyu_D_28",
+            "/SceneZOI_93C44199/HZoi/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_29.SW_kutyu_D_29"
+          ]
+        }
+      ]
+    }
+  },
+  "expression_files": [
+    "hzoi/expressions/confident.json",
+    "hzoi/expressions/downer.json",
+    "hzoi/expressions/grinning_face.json",
+    "hzoi/expressions/pleasure_face.json",
+    "hzoi/expressions/troubled_face.json"
+  ]
+}

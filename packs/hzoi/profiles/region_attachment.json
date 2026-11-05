@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.region_attachment",
+  "body": "male",
+  "growth_steps": [
+    "Youth",
+    "Adult",
+    "Old",
+    "Elderly"
+  ],
+  "section": 17,
+  "attachment": {
+    "mesh": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
+    "socket": "pelvis",
+    "reference_bone": "pelvis",
+    "body_profile": "hzoi.body_layout",
+    "material_profile": "hzoi.skin_hair",
+    "retain_for_session": true
+  },
+  "node_animations": {
+    "hzoi.standing_idle": "/HZoi_660649D8/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+    "hzoi.standing_hand_job": "/HZoi_660649D8/Animations/HZOI_Standing_hand_job_MA.HZOI_Standing_hand_job_MA",
+    "hzoi.male_standing_female_kneeling_fellatio": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_MA.HZOI_Male_standing_female_kneeling_fellatio_MA",
+    "hzoi.standing_rear": "/HZoi_660649D8/Animations/HZOI_Standing_rear_sex_MA.HZOI_Standing_rear_sex_MA",
+    "scenezoi.standing_idle": "/HZoi_660649D8/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+    "scenezoi.bed_single_idle": "/HZoi_660649D8/Animations/HZoi_Bed_idle_MA.HZoi_Bed_idle_MA",
+    "scenezoi.bed_queen_idle": "/HZoi_660649D8/Animations/HZoi_Bed_idle_MA.HZoi_Bed_idle_MA"
+  },
+  "legacy_layers": [
+    "SceneZOI_Prototype_MaleAnatomy"
+  ]
+}

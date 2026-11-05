@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.grinning_face",
+  "label": "Grinning face",
+  "body": "female",
+  "default": false,
+  "contexts": {
+    "Idle": {
+      "hold": [
+        5.0,
+        11.0
+      ],
+      "transition": 0.35,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Confident.ANIM_F_Face_Confident",
+          "weight": 1,
+          "label": "Confident"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Joyful.ANIM_F_Face_Joyful",
+          "weight": 1,
+          "label": "Joyful"
+        }
+      ]
+    },
+    "Pleasure": {
+      "hold": [
+        2.4,
+        7.0
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Confident.ANIM_F_Face_Confident",
+          "weight": 1,
+          "label": "Confident"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Giggling.ANIM_F_Face_Giggling",
+          "weight": 1,
+          "label": "Giggling"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Funny.ANIM_F_Face_Funny",
+          "weight": 1,
+          "label": "Funny"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Joyful.ANIM_F_Face_Joyful",
+          "weight": 1,
+          "label": "Joyful"
+        }
+      ]
+    },
+    "Kiss": {
+      "hold": [
+        6,
+        6
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Target_Lover_Hug_Kiss.ANIM_F_Face_Target_Lover_Hug_Kiss",
+          "weight": 1,
+          "label": "Kiss",
+          "sample": 4.5
+        }
+      ]
+    }
+  },
+  "aliases": [
+    "scenezoi.niyaniya"
+  ]
+}

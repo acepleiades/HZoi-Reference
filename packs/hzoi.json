@@ -1,0 +1,275 @@
+{
+  "schema_version": 3,
+  "id": "hzoi",
+  "scene_directory": "hzoi/scenes",
+  "extensions": [
+    {
+      "hub": "scenezoi.standing_idle",
+      "id": "hzoi.enter",
+      "target": "hzoi.standing_idle"
+    }
+  ],
+  "sound_sets": {
+    "hzoi.kiss": {
+      "default": {
+        "clips": [
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_01.SW_kiss_01",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_02.SW_kiss_02",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_03.SW_kiss_03",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_04.SW_kiss_04",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_05.SW_kiss_05",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_06.SW_kiss_06",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_07.SW_kiss_07",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_08.SW_kiss_08",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_09.SW_kiss_09",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_10.SW_kiss_10",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_11.SW_kiss_11",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_12.SW_kiss_12",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_13.SW_kiss_13",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_14.SW_kiss_14",
+          "/HZoi_660649D8/Audio/SFX/kiss/SW_kiss_15.SW_kiss_15"
+        ]
+      }
+    },
+    "hzoi.piston": {
+      "default": {
+        "clips": [
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_0.SW_pan_0",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_1.SW_pan_1",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_10.SW_pan_10",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_2.SW_pan_2",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_3.SW_pan_3",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_4.SW_pan_4",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_5.SW_pan_5",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_6.SW_pan_6",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_7.SW_pan_7",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_8.SW_pan_8",
+          "/HZoi_660649D8/Audio/SFX/piston/SW_pan_9.SW_pan_9"
+        ]
+      }
+    },
+    "hzoi.kutyu": {
+      "variants": [
+        {
+          "scene_speed": 0.5,
+          "clips": [
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_01.SW_kutyu_A_01",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_02.SW_kutyu_A_02",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_03.SW_kutyu_A_03",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_04.SW_kutyu_A_04",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_05.SW_kutyu_A_05",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_06.SW_kutyu_A_06",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_07.SW_kutyu_A_07",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_08.SW_kutyu_A_08",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_09.SW_kutyu_A_09",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_10.SW_kutyu_A_10",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_11.SW_kutyu_A_11",
+            "/HZoi_660649D8/Audio/SFX/kutyu/A_0_5x/SW_kutyu_A_12.SW_kutyu_A_12"
+          ]
+        },
+        {
+          "scene_speed": 1.0,
+          "clips": [
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_01.SW_kutyu_B_01",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_02.SW_kutyu_B_02",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_03.SW_kutyu_B_03",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_04.SW_kutyu_B_04",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_05.SW_kutyu_B_05",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_06.SW_kutyu_B_06",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_07.SW_kutyu_B_07",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_08.SW_kutyu_B_08",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_09.SW_kutyu_B_09",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_10.SW_kutyu_B_10",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_11.SW_kutyu_B_11",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_12.SW_kutyu_B_12",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_13.SW_kutyu_B_13",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_14.SW_kutyu_B_14",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_15.SW_kutyu_B_15",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_16.SW_kutyu_B_16",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_17.SW_kutyu_B_17",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_18.SW_kutyu_B_18",
+            "/HZoi_660649D8/Audio/SFX/kutyu/B_1_0x/SW_kutyu_B_19.SW_kutyu_B_19"
+          ]
+        },
+        {
+          "scene_speed": 1.5,
+          "clips": [
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_01.SW_kutyu_C_01",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_02.SW_kutyu_C_02",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_03.SW_kutyu_C_03",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_04.SW_kutyu_C_04",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_05.SW_kutyu_C_05",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_06.SW_kutyu_C_06",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_07.SW_kutyu_C_07",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_08.SW_kutyu_C_08",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_09.SW_kutyu_C_09",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_10.SW_kutyu_C_10",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_11.SW_kutyu_C_11",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_12.SW_kutyu_C_12",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_13.SW_kutyu_C_13",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_14.SW_kutyu_C_14",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_15.SW_kutyu_C_15",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_16.SW_kutyu_C_16",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_17.SW_kutyu_C_17",
+            "/HZoi_660649D8/Audio/SFX/kutyu/C_1_5x/SW_kutyu_C_18.SW_kutyu_C_18"
+          ]
+        },
+        {
+          "scene_speed": 2.0,
+          "clips": [
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_01.SW_kutyu_D_01",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_02.SW_kutyu_D_02",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_03.SW_kutyu_D_03",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_04.SW_kutyu_D_04",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_05.SW_kutyu_D_05",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_06.SW_kutyu_D_06",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_07.SW_kutyu_D_07",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_08.SW_kutyu_D_08",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_09.SW_kutyu_D_09",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_10.SW_kutyu_D_10",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_11.SW_kutyu_D_11",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_12.SW_kutyu_D_12",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_13.SW_kutyu_D_13",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_14.SW_kutyu_D_14",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_15.SW_kutyu_D_15",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_16.SW_kutyu_D_16",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_17.SW_kutyu_D_17",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_18.SW_kutyu_D_18",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_19.SW_kutyu_D_19",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_20.SW_kutyu_D_20",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_21.SW_kutyu_D_21",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_22.SW_kutyu_D_22",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_23.SW_kutyu_D_23",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_24.SW_kutyu_D_24",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_25.SW_kutyu_D_25",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_26.SW_kutyu_D_26",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_27.SW_kutyu_D_27",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_28.SW_kutyu_D_28",
+            "/HZoi_660649D8/Audio/SFX/kutyu/D_2_0x/SW_kutyu_D_29.SW_kutyu_D_29"
+          ]
+        }
+      ]
+    }
+  },
+  "expression_files": [
+    "hzoi/expressions/confident.json",
+    "hzoi/expressions/downer.json",
+    "hzoi/expressions/grinning_face.json",
+    "hzoi/expressions/pleasure_face.json",
+    "hzoi/expressions/troubled_face.json"
+  ],
+  "data_files": [
+    {
+      "kind": "body_profile",
+      "file": "hzoi/profiles/body_layout.json"
+    },
+    {
+      "kind": "material_profile",
+      "file": "hzoi/profiles/skin_hair.json"
+    },
+    {
+      "kind": "coverage_attachment",
+      "file": "hzoi/profiles/region_attachment.json"
+    },
+    {
+      "kind": "voice_archetype",
+      "file": "hzoi/voices/archetype_cute.json"
+    },
+    {
+      "kind": "voice_archetype",
+      "file": "hzoi/voices/archetype_mature.json"
+    },
+    {
+      "kind": "voice_archetype",
+      "file": "hzoi/voices/archetype_downer.json"
+    },
+    {
+      "kind": "voice_context",
+      "file": "hzoi/voices/context_breath.json"
+    },
+    {
+      "kind": "voice_context",
+      "file": "hzoi/voices/context_kiss.json"
+    },
+    {
+      "kind": "voice_context",
+      "file": "hzoi/voices/context_sex.json"
+    },
+    {
+      "kind": "voice_context",
+      "file": "hzoi/voices/context_fellatio.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_echioto_cute_sex_A1.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_echioto_cute_sex_A2.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_echioto_cute_sex_B1.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_echioto_cute_sex_B2.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_echioto_cute_sex_B3.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_megu_hiiragi_downer_fellatio.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_megu_hiiragi_downer_sex.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_megu_hiiragi_cute_fellatio.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_megu_hiiragi_mature_fellatio.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_megu_hiiragi_mature_sex.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_downer_breath.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_downer_kiss.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_cute_breath.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_cute_kiss.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_mature_breath.json"
+    },
+    {
+      "kind": "voice_set",
+      "file": "hzoi/voices/set_shinonoi_rin_mature_kiss.json"
+    },
+    {
+      "kind": "scene_task",
+      "file": "hzoi/tasks/excitement.json"
+    },
+    {
+      "kind": "localization",
+      "file": "hzoi/localization/text.json"
+    }
+  ]
+}

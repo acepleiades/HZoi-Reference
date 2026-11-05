@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.echioto_cute_sex_b1",
+  "label": "Echioto Cute Sex B1",
+  "body": "female",
+  "archetype": "hzoi.cute",
+  "context": "sex",
+  "clips": [
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_00.SW_B1_00",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_01.SW_B1_01",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_02.SW_B1_02",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_03.SW_B1_03",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_04.SW_B1_04",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_05.SW_B1_05",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_06.SW_B1_06",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_07.SW_B1_07",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_08.SW_B1_08",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_09.SW_B1_09",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_10.SW_B1_10",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_11.SW_B1_11",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_12.SW_B1_12",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_13.SW_B1_13",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_14.SW_B1_14",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_15.SW_B1_15",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_16.SW_B1_16",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_17.SW_B1_17",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_18.SW_B1_18",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_19.SW_B1_19",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_20.SW_B1_20",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_21.SW_B1_21",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_22.SW_B1_22",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_23.SW_B1_23",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_24.SW_B1_24",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_25.SW_B1_25",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_26.SW_B1_26",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_27.SW_B1_27",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_28.SW_B1_28",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_29.SW_B1_29",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_30.SW_B1_30",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_31.SW_B1_31",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B1/SW_B1_32.SW_B1_32"
+  ],
+  "volume": 0.8,
+  "gap": 0,
+  "responses": {
+    "orgasm": {
+      "clips": [
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/SW_echioto_B_climax_1.SW_echioto_B_climax_1",
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/SW_echioto_B_climax_2.SW_echioto_B_climax_2",
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/SW_echioto_B_climax_3.SW_echioto_B_climax_3"
+      ]
+    },
+    "male_climax_reaction": {
+      "clips": [
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/male_climax_reaction/SW_echioto_B_male_climax_1.SW_echioto_B_male_climax_1",
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/male_climax_reaction/SW_echioto_B_male_climax_2.SW_echioto_B_male_climax_2",
+        "/HZoi_660649D8/Audio/Voice/01_Kawaii/echioto_kawaii_sex_B_orgasm/male_climax_reaction/SW_echioto_B_male_climax_3.SW_echioto_B_male_climax_3"
+      ]
+    }
+  }
+}

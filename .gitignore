@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+modkit/*/Saved/
+modkit/*/Intermediate/
+modkit/*/Windows/
+modkit/*/lua/
+modkit/*/Content/Audio/
+modkit/*/*.zip

@@ -1,0 +1,109 @@
+{
+  "id": "hzoi.standing_idle",
+  "label": "HZoi Standing Idle",
+  "kind": "loop",
+  "duration": 3,
+  "fps": 60,
+  "tracks": {
+    "male": "/HZoi_660649D8/Animations/HZOI_Standing_idle_M.HZOI_Standing_idle_M",
+    "female": "/HZoi_660649D8/Animations/HZOI_Standing_idle_F.HZOI_Standing_idle_F"
+  },
+  "navigation": [
+    {
+      "id": "neutral",
+      "label": "Return...",
+      "target": "scenezoi.standing_idle"
+    },
+    {
+      "id": "standing_hand_job",
+      "target": "hzoi.standing_hand_job"
+    },
+    {
+      "id": "standing_kneeling",
+      "target": "hzoi.male_standing_female_kneeling_fellatio"
+    },
+    {
+      "id": "standing_rear",
+      "target": "hzoi.standing_rear"
+    }
+  ],
+  "participants": {
+    "male": {
+      "body": "male",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    },
+    "female": {
+      "body": "female",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    }
+  },
+  "anchor_participant": "male",
+  "gaze": {
+    "male": {
+      "participant": "female",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    },
+    "female": {
+      "participant": "male",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    }
+  },
+  "expressions": {
+    "male": {
+      "context": "Idle"
+    },
+    "female": {
+      "context": "Idle"
+    }
+  },
+  "tags": [
+    "affectionate",
+    "standing",
+    "eye_contact"
+  ],
+  "participant_tags": {
+    "male": [
+      "standing"
+    ],
+    "female": [
+      "standing",
+      "leaning_against_partner",
+      "hand_on_partner_chest",
+      "arm_around_partner_hips"
+    ]
+  },
+  "actions": [
+    {
+      "type": "hug",
+      "actor": "male",
+      "target": "female",
+      "performer": "male"
+    },
+    {
+      "type": "hug",
+      "actor": "female",
+      "target": "male",
+      "performer": "female"
+    }
+  ]
+}

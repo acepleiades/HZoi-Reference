@@ -1,0 +1,216 @@
+{
+  "schema_version": 2,
+  "transport": "native_table",
+  "files": [
+    {
+      "path": "Content/JsonPatch/Text_UI_patch.json",
+      "sha256": "1f8ad3132fef888ec8b37c6173712fe50e0ece6edc2e0f78af1ee80f1e817d5c"
+    }
+  ],
+  "records": [
+    {
+      "id": "SceneZOI_Declaration_hzoi__body_profile__body_layout",
+      "owner": "hzoi",
+      "kind": "body_profile",
+      "source": "body_layout.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__coverage_attachment__region_attachment",
+      "owner": "hzoi",
+      "kind": "coverage_attachment",
+      "source": "region_attachment.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__expression_set__confident",
+      "owner": "hzoi",
+      "kind": "expression_set",
+      "source": "confident.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__expression_set__downer",
+      "owner": "hzoi",
+      "kind": "expression_set",
+      "source": "downer.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__expression_set__grinning_face",
+      "owner": "hzoi",
+      "kind": "expression_set",
+      "source": "grinning_face.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__expression_set__pleasure_face",
+      "owner": "hzoi",
+      "kind": "expression_set",
+      "source": "pleasure_face.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__expression_set__troubled_face",
+      "owner": "hzoi",
+      "kind": "expression_set",
+      "source": "troubled_face.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__localization__text",
+      "owner": "hzoi",
+      "kind": "localization",
+      "source": "text.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__material_profile__skin_hair",
+      "owner": "hzoi",
+      "kind": "material_profile",
+      "source": "skin_hair.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__scene_pack__hzoi",
+      "owner": "hzoi",
+      "kind": "scene_pack",
+      "source": "hzoi.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__scene_task__excitement",
+      "owner": "hzoi",
+      "kind": "scene_task",
+      "source": "excitement.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_archetype__archetype_cute",
+      "owner": "hzoi",
+      "kind": "voice_archetype",
+      "source": "archetype_cute.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_archetype__archetype_downer",
+      "owner": "hzoi",
+      "kind": "voice_archetype",
+      "source": "archetype_downer.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_archetype__archetype_mature",
+      "owner": "hzoi",
+      "kind": "voice_archetype",
+      "source": "archetype_mature.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_context__context_breath",
+      "owner": "hzoi",
+      "kind": "voice_context",
+      "source": "context_breath.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_context__context_fellatio",
+      "owner": "hzoi",
+      "kind": "voice_context",
+      "source": "context_fellatio.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_context__context_kiss",
+      "owner": "hzoi",
+      "kind": "voice_context",
+      "source": "context_kiss.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_context__context_sex",
+      "owner": "hzoi",
+      "kind": "voice_context",
+      "source": "context_sex.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_echioto_cute_sex_a1",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_echioto_cute_sex_A1.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_echioto_cute_sex_a2",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_echioto_cute_sex_A2.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_echioto_cute_sex_b1",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_echioto_cute_sex_B1.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_echioto_cute_sex_b2",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_echioto_cute_sex_B2.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_echioto_cute_sex_b3",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_echioto_cute_sex_B3.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_megu_hiiragi_cute_fellatio",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_megu_hiiragi_cute_fellatio.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_megu_hiiragi_downer_fellatio",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_megu_hiiragi_downer_fellatio.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_megu_hiiragi_downer_sex",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_megu_hiiragi_downer_sex.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_megu_hiiragi_mature_fellatio",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_megu_hiiragi_mature_fellatio.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_megu_hiiragi_mature_sex",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_megu_hiiragi_mature_sex.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_cute_breath",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_cute_breath.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_cute_kiss",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_cute_kiss.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_downer_breath",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_downer_breath.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_downer_kiss",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_downer_kiss.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_mature_breath",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_mature_breath.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__voice_set__set_shinonoi_rin_mature_kiss",
+      "owner": "hzoi",
+      "kind": "voice_set",
+      "source": "set_shinonoi_rin_mature_kiss.json"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.pleasure_face",
+  "label": "Pleasure face",
+  "body": "female",
+  "default": true,
+  "contexts": {
+    "Idle": {
+      "hold": [
+        5.0,
+        11.0
+      ],
+      "transition": 0.35,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Calm.ANIM_F_Face_Calm",
+          "weight": 1,
+          "label": "Calm"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Touched.ANIM_F_Face_Touched",
+          "weight": 1,
+          "label": "Touched"
+        }
+      ]
+    },
+    "Pleasure": {
+      "hold": [
+        2.4,
+        7.0
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Sensual.ANIM_F_Face_Sensual",
+          "weight": 1,
+          "label": "Sensual"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Enchanting.ANIM_F_Face_Enchanting",
+          "weight": 1,
+          "label": "Enchanting"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Calm.ANIM_F_Face_Calm",
+          "weight": 1,
+          "label": "Calm"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Touched.ANIM_F_Face_Touched",
+          "weight": 1,
+          "label": "Touched"
+        }
+      ]
+    },
+    "Kiss": {
+      "hold": [
+        6,
+        6
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Target_Lover_Hug_Kiss.ANIM_F_Face_Target_Lover_Hug_Kiss",
+          "weight": 1,
+          "label": "Kiss",
+          "sample": 4.5
+        }
+      ]
+    }
+  },
+  "aliases": [
+    "scenezoi.torogao"
+  ]
+}

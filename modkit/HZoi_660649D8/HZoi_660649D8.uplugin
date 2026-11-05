@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "HZoi",
+  "Description": "HZoi animations, assets and declarative scene content for SceneZOI.",
+  "Category": "Other",
+  "CreatedBy": "acenetizen",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "ModCode": "660649D8",
+  "MigrationState": 5
+}

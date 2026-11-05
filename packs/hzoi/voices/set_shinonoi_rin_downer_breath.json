@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.shinonoi_rin_downer_breath",
+  "label": "Shinonoi Rin Downer Breath",
+  "body": "female",
+  "archetype": "hzoi.downer",
+  "context": "breath",
+  "clips": [
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C01.SW_C01",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C02.SW_C02",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C03.SW_C03",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C04.SW_C04",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C05.SW_C05",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C06.SW_C06",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C07.SW_C07",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C08.SW_C08",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C09.SW_C09",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C10.SW_C10",
+    "/HZoi_660649D8/Audio/Voice/03_Downer/shinonoi_rin_downer_breath/SW_C11.SW_C11"
+  ],
+  "volume": 0.9,
+  "gap": 0
+}

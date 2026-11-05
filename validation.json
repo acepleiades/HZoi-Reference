@@ -1,0 +1,65 @@
+{
+  "purpose": "Public-ready, reference-only HZoi source snapshot for SceneZOI content authors.",
+  "checked_at_utc": "2026-11-05T12:08:14.707694+00:00",
+  "reference_only": true,
+  "published": false,
+  "history": {
+    "original_history_copied": false,
+    "commits": 0,
+    "objects": 0,
+    "remote_configured": false
+  },
+  "repository_wide_license_provided": false,
+  "attribution": "Genital mesh attribution: “Free Blender Model - The Vagrant by Ryan Reos” subject to its own license.",
+  "audio": {
+    "original_recordings_included": false,
+    "original_soundwave_packages_included": false,
+    "silent_pcm_wavs": 702,
+    "all_samples_verified_silent": true,
+    "format_timing_and_replacement_hashes_verified": true,
+    "native_soundwaves_require_fresh_import": true
+  },
+  "native_assets": {
+    "non_audio_packages_included": 23,
+    "animation_packages": 13,
+    "male_genital_mesh_retained": true,
+    "copied_asset_hashes_verified": true,
+    "stock_game_engine_dependencies_redistributed": false
+  },
+  "automated_checks": {
+    "reference_safety_audit": "passed",
+    "silent_audio_regression_tests": {
+      "passed": 7,
+      "failed": 0
+    },
+    "declaration_build": {
+      "passed": true,
+      "scene_nodes": 4,
+      "native_declarations": 34
+    },
+    "framework_and_external_content_tests": {
+      "passed": true,
+      "python_tests": 85,
+      "lua_and_ui_suites": "all passed",
+      "framework_commit": "ea20e1b5ce98d73d6f2b67ee2df301fe5e275404"
+    },
+    "local_document_links": "passed",
+    "machine_specific_text_paths": "none found",
+    "github_regular_file_size_limit": "passed; largest file under 14 MB"
+  },
+  "originals": {
+    "private_repository_native_assets_and_installed_mod_files_unchanged": true,
+    "protected_file_hashes_verified": 1916
+  },
+  "not_performed": [
+    "Native import of the silent WAV replacements.",
+    "Registration, cooking or installation of this reference as a player mod.",
+    "New in-game visual or audible acceptance.",
+    "Commit, push or GitHub publication."
+  ],
+  "notes": [
+    "This report describes preparation-time checks, not acceptance of a new player release.",
+    "The original production FBX and Maya files are not included.",
+    "The original private repository, native project and player installation were not modified."
+  ]
+}

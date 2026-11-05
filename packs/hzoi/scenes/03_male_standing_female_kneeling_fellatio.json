@@ -1,0 +1,247 @@
+{
+  "id": "hzoi.male_standing_female_kneeling_fellatio",
+  "label": "Male Standing Female Kneeling Fellatio",
+  "kind": "loop",
+  "duration": 10,
+  "fps": 60,
+  "tracks": {
+    "male": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_M.HZOI_Male_standing_female_kneeling_fellatio_M",
+    "female": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_F.HZOI_Male_standing_female_kneeling_fellatio_F"
+  },
+  "outfits": {
+    "male": {
+      "remove_slots": [
+        "Top",
+        "Bottom",
+        "Full",
+        "Jacket",
+        "Shoes",
+        "Socks",
+        "InnerTop",
+        "InnerUnder",
+        "Stockings",
+        "Gloves",
+        "Scarf"
+      ]
+    }
+  },
+  "navigation": [
+    {
+      "id": "idle",
+      "label": "Return...",
+      "target": "hzoi.standing_idle"
+    }
+  ],
+  "participants": {
+    "male": {
+      "body": "male",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    },
+    "female": {
+      "body": "female",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    }
+  },
+  "anchor_participant": "male",
+  "gaze": {
+    "male": {
+      "participant": "female",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    },
+    "female": {
+      "participant": "male",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    }
+  },
+  "expressions": {
+    "male": {
+      "context": "Pleasure"
+    },
+    "female": {
+      "context": "Pleasure",
+      "facial_pose": "scenezoi.open_o"
+    }
+  },
+  "voices": {
+    "female": {
+      "context": "fellatio"
+    }
+  },
+  "tasks": {
+    "male": {
+      "excitement": {
+        "rate": 1,
+        "cap_percent": 100
+      }
+    },
+    "female": {
+      "excitement": {
+        "rate": 0.5,
+        "cap_percent": 50
+      }
+    }
+  },
+  "movement_timing": {
+    "cycles_per_second": 1,
+    "peak_phase": 0.5
+  },
+  "completion_responses": {
+    "male": {
+      "excitement": {
+        "enabled": true,
+        "slowdown": {
+          "repeats": 2,
+          "high_speed": 0.5,
+          "low_speed": 0.08333333333333333,
+          "recovery": 0.4,
+          "fallback_duration": 8
+        },
+        "shake": {
+          "delay": 0.5,
+          "duration": 6,
+          "bursts": 3,
+          "duty_cycle": 0.7,
+          "frequency_hz": 18,
+          "amplitude_degrees": 1.25,
+          "bones": [
+            {
+              "bone": "thigh_l",
+              "child": "calf_l",
+              "weight": 1
+            },
+            {
+              "bone": "calf_l",
+              "child": "foot_l",
+              "weight": 0.4
+            },
+            {
+              "bone": "foot_l",
+              "child": "ball_l",
+              "weight": 0.05
+            },
+            {
+              "bone": "thigh_r",
+              "child": "calf_r",
+              "weight": -0.8
+            },
+            {
+              "bone": "calf_r",
+              "child": "foot_r",
+              "weight": -0.32
+            },
+            {
+              "bone": "foot_r",
+              "child": "ball_r",
+              "weight": -0.04
+            }
+          ]
+        }
+      }
+    },
+    "female": {
+      "excitement": {
+        "enabled": true,
+        "shake": {
+          "delay": 0.5,
+          "duration": 3,
+          "bursts": 1,
+          "duty_cycle": 1,
+          "frequency_hz": 18,
+          "amplitude_degrees": 1.25,
+          "bones": [
+            {
+              "bone": "thigh_l",
+              "child": "calf_l",
+              "weight": 1
+            },
+            {
+              "bone": "calf_l",
+              "child": "foot_l",
+              "weight": 0.4
+            },
+            {
+              "bone": "foot_l",
+              "child": "ball_l",
+              "weight": 0.05
+            },
+            {
+              "bone": "thigh_r",
+              "child": "calf_r",
+              "weight": -0.8
+            },
+            {
+              "bone": "calf_r",
+              "child": "foot_r",
+              "weight": -0.32
+            },
+            {
+              "bone": "foot_r",
+              "child": "ball_r",
+              "weight": -0.04
+            }
+          ]
+        }
+      }
+    }
+  },
+  "task_completion_voices": {
+    "male": {
+      "excitement": [
+        {
+          "participant": "female",
+          "context": "fellatio",
+          "response": "fellatio_finish",
+          "fade_out": 0.25
+        }
+      ]
+    }
+  },
+  "tags": [
+    "eye_contact"
+  ],
+  "participant_tags": {
+    "male": [
+      "standing",
+      "torso_upright",
+      "pleased"
+    ],
+    "female": [
+      "kneeling",
+      "looking_up"
+    ]
+  },
+  "actions": [
+    {
+      "type": "fellatio",
+      "actor": "female",
+      "target": "male",
+      "performer": "female"
+    },
+    {
+      "type": "holding_penis_at_base",
+      "actor": "female",
+      "target": "male",
+      "performer": "female"
+    }
+  ]
+}
