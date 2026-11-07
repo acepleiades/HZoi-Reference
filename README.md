@@ -59,6 +59,13 @@ API separately. HZoi Gameplay is not included.
 SceneZOI works independently of this pack. Authors can study these patterns while
 using their own scene IDs, assets, content and permissions.
 
+## Use the anatomy mesh in your own animation pack
+
+The separate [anatomy authoring kit and walkthrough](docs/standalone-anatomy.md)
+show how to bring the same mesh into your own ModKit project. The kit includes
+Blender rigs, importable assets and a SceneZOI JSON example. Your finished pack
+owns its mesh and animation tracks and needs only SceneZOI as a mod dependency.
+
 ## Body-region profile
 
 The current example uses body-profile schema 2, requiring the generic section

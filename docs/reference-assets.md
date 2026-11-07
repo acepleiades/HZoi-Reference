@@ -12,6 +12,10 @@ sample rate, channel count, sample width and frame count, containing only digita
 silence. These can be imported to recreate the declared SoundWave paths without
 including any recoverable original recording.
 
+For a new animation pack with its own anatomy attachment, use the
+[independent authoring kit](standalone-anatomy.md). The steps below recreate
+this reference project's asset paths and silent audio.
+
 ## JSON-only study
 
 Use `tools/build.py` to validate and stage the 34 declarations. Native imports are

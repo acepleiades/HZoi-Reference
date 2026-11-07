@@ -16,4 +16,7 @@ Standing navigation is Standing Idle Hub → HZoi Standing Idle → an authored 
 
 Exposure-driven attachment activation uses resolved garment coverage and compatibility, including already exposed bodies and manual edits at neutral hubs. Each participant owns their own resources. Retained components and original body snapshots survive navigation, and tracks use the shared participant clock. The bed attachment maps optionally to neutral single/queen hubs; HZoi adds no bed scene. Ground-level bed clips use authored support plane 0 cm; the current framework profiles target 68 cm standard beds and 20 cm futons.
 
+For exporting new paired tracks with the same anatomy mesh and packaging them
+without HZoi, see the [standalone authoring walkthrough](standalone-anatomy.md).
+
 See [reference assets](reference-assets.md) for the native overlay and silent audio setup. Run `tools/build.py` and `tools/test.py` for declarative/content checks. `tools/import_animations.py` illustrates the production import process but requires the original FBX inputs, which are not supplied. Developer tools do not ship in an installed content pack. See [validation.json](../validation.json) for this reference's checks and acceptance limits.
