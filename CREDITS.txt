@@ -23,3 +23,8 @@ SECTION: Voice
 * 42_クリエイターの私が本当に欲しかった音声素材_篠ノ井凛 by ふぁっちゅ
 * 55_クリエイターの私が本当に欲しかった音声素材_柊木めぐ by ふぁっちゅ
 * 61_クリエイターの私が本当に欲しかった音声素材_フェラ特化_柊木めぐ by ふぁっちゅ
+
+The separately distributed original animation motion is described in
+HZOI-ANIMATION-LICENSE.txt and ANIMATION-RIGHTS.json. Existing GPL grants stay
+separate; GPL-3.0-only.txt supplies that license text, not a repository-wide
+license. The rest-pose placeholders here are outside the original-motion license.

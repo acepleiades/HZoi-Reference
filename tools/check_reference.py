@@ -43,6 +43,16 @@ def check():
         assert hashlib.sha256((project / 'Content' / rel).read_bytes()).hexdigest() == expected, 'Native asset changed: ' + rel
     assert not any(p.suffix.lower() in {'.lua', '.js', '.py', '.dll'}
                    for p in project.rglob('*') if p.is_file()), 'Content pack must remain code-free'
+    for name in ('HZOI-ANIMATION-LICENSE.txt', 'ANIMATION-RIGHTS.json', 'GPL-3.0-only.txt'):
+        assert (ROOT / name).is_file(), 'Missing scoped distribution notice: ' + name
+    rights = json.loads((ROOT / 'ANIMATION-RIGHTS.json').read_text(encoding='utf-8'))
+    assert rights['license_id'] == 'HZoi-Original-Animations-1.0'
+    excluded = {entry['source'] for entry in rights['excluded_animations']}
+    assert excluded == {'HZOI_Standing_idle_F.fbx', 'HZOI_Standing_idle_M.fbx'}, 'Preserve standing body idle GPL grants'
+    assert all(entry['license'] == 'GPL-3.0-only' for entry in rights['excluded_animations'])
+    for entry in rights['covered_animations']:
+        rel = entry['asset'].split('.')[0].split('/' + PLUGIN + '/', 1)[1] + '.uasset'
+        assert hashes[rel] != entry['editor_asset_sha256'], 'Original motion package present instead of reference pose'
     readme = (ROOT / 'README.md').read_text(encoding='utf-8')
     credits = (ROOT / 'CREDITS.txt').read_text(encoding='utf-8')
     assert 'Free Blender Model - The Vagrant by Ryan Reos' in readme and 'Free Blender Model - The Vagrant by Ryan Reos' in credits
@@ -50,7 +60,7 @@ def check():
             'rest_pose_animation_placeholders': animation_count,
             'supporting_native_assets': len(expected_assets) - animation_count,
             'original_animation_sources_present': False,
-            'original_soundwave_packages_present': False, 'repository_license_file_present': False}
+            'original_soundwave_packages_present': False, 'repository_wide_license_file_present': False, 'scoped_original_motion_notice_present': True}
 
 
 if __name__ == '__main__':

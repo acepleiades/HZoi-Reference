@@ -1,0 +1,114 @@
+HZoi Original Animation License 1.0
+License identifier: HZoi-Original-Animations-1.0
+Effective date: 2026-11-20
+
+Copyright (c) 2026 aceanimations / acepleiades (acenetizen).
+All rights reserved except the permissions expressly granted below.
+
+1. What this license covers
+
+This license covers only the author's original animation motion identified in
+the "covered_animations" list in the accompanying ANIMATION-RIGHTS.json.
+It applies to that motion in the identified source, editor and cooked forms;
+it does not give access to source files that have not been distributed.
+The recorded paths and hashes identify the works and versions concerned.
+Repacking, renaming or converting a covered animation does not grant additional
+permission to use its underlying motion.
+
+This is a separate, restricted asset license. It is not the GNU GPL and is not
+a repository-wide or open-source license. An unlisted work is not licensed by
+this document. The exclusions in section 5 take precedence over other wording.
+
+2. Authorized playback
+
+You receive a non-exclusive, royalty-free permission to copy, install, load,
+decode and play the covered animations in inZOI through either:
+
+  a. SceneZOI: https://github.com/acepleiades/SceneZOI ; or
+  b. A genuine fork or derivative of SceneZOI that preserves the applicable
+     GPL-3.0-only licensing of SceneZOI's covered code and complies with the
+     GPL obligations applicable to its use and distribution.
+
+An independently written framework is not a qualifying fork merely because it
+uses a compatible JSON schema, reproduces SceneZOI's interface, loads the same
+files, or uses the GPL for its own unrelated code. SceneZOI or its qualifying
+fork must provide the animation playback; using its name or metadata alone
+does not qualify another player.
+
+Gameplay integrations may request that playback through SceneZOI's or a
+qualifying fork's API. Content packs may reference covered assets from the
+separately installed official HZoi package for authorized playback, including
+manual scene selection. Their own code and other content remain subject to
+their applicable licenses. Qualifying forks do not need the author's
+endorsement. Private modifications do not acquire a public-source publication
+requirement beyond the obligations actually imposed by the GPL.
+
+You may make personal backups and private adjustments for the authorized
+playback above, including local inspection and preview in an animation editor
+solely to prepare that authorized use. Those adjusted copies remain subject to
+this license. This permission does not authorize playback through an independent
+replacement framework, use in another game, or use as a standalone animation
+product.
+
+3. Distribution and other uses
+
+This license does not grant permission to redistribute the covered animation
+files, whether unchanged, modified, extracted, retargeted or converted, or to
+include them in another package, animation library or framework. Obtain separate
+written permission from the copyright holder for those uses.
+
+Instead, direct users to the official HZoi download and declare HZoi as a
+dependency when using its resources with an authorized runtime:
+https://www.patreon.com/skyrimaceanimations/posts/hzoi-public-174452155
+
+The restriction concerns redistribution of animation files. It does not prohibit
+ordinary loading or decoding needed for authorized playback, or ordinary
+screenshots and video captures of that gameplay. This paragraph grants no rights
+to separately owned audio, meshes or other material appearing in a capture.
+
+4. Keep permissions separate
+
+Nothing here prohibits creating independent software, a compatible file-format
+reader, or independently authored animations. It does not change SceneZOI's
+GPL license, impose these asset conditions on framework code, or establish
+that a particular external program infringes any software license.
+
+It does not authorize use of the covered animations by such independent
+software. Permissions for the software and permissions for the animation
+motion are separate questions.
+
+5. Excluded works and existing rights
+
+These restrictions do not apply to:
+
+  - The standing idle female and male body motion already distributed with
+    SceneZOI under GPL-3.0-only, including identical HZoi copies and earlier
+    versions covered by those grants. They are identified in the
+    "excluded_animations" list in ANIMATION-RIGHTS.json.
+  - SceneZOI's neutral bed female and male body animations, its framework and
+    SDK code, or any other work already covered by a valid GPL grant. A copy
+    of GPL-3.0-only.txt accompanies the HZoi player package for the GPL-licensed
+    motion excluded from this license.
+  - Ryan Reos's anatomy mesh and related third-party material, proprietary
+    recordings, game/engine assets, or separately distributed AAL material.
+    Their respective owners and terms continue to govern them. CREDITS.txt
+    identifies the credited third-party sources; it is not a license grant.
+  - Scene JSON, schemas, configuration, documentation and developer tools.
+    This document grants no new license for those separate materials.
+  - The newly generated rest-pose animation placeholders in HZoi Reference.
+    Those contain no original HZoi motion, even when their asset names match.
+
+Nothing in this license withdraws, narrows or replaces a valid earlier grant,
+including an existing GPL grant, or limits rights available under applicable
+copyright exceptions or other mandatory law. Prior valid permissions remain
+available independently of this license. No license to third-party works or
+trademarks is granted by implication.
+
+6. Scope and warranty
+
+Uses outside the permissions above require a separate applicable permission;
+this license does not authorize them. The animations are provided "as is",
+without warranties, to the extent permitted by applicable law.
+
+For permission requests, contact aceanimations / acepleiades through the
+official HZoi download page or the SceneZOI project contact channels.

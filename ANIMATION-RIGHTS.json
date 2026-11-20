@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "license_id": "HZoi-Original-Animations-1.0",
+  "license_file": "HZOI-ANIMATION-LICENSE.txt",
+  "copyright_holder": "aceanimations / acepleiades (acenetizen)",
+  "effective_date": "2026-11-20",
+  "covered_animations": [
+    {
+      "source": "HZOI_Standing_idle_MA.fbx",
+      "source_sha256": "e92213c69b88398af9e7c9cf4a5d5044dcd891eb91dd41fae125009d35bb419d",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_idle_MA.HZOI_Standing_idle_MA",
+      "editor_asset_sha256": "4c2d950fd2a75b0b061c59df5e867ba8b93482d694763eb986403705a07ebb39"
+    },
+    {
+      "source": "HZOI_Standing_hand_job_F.fbx",
+      "source_sha256": "305c2f9daa34cd8d636f110e0048430e31bd2769310456722d4cc40497c1cde9",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_hand_job_F.HZOI_Standing_hand_job_F",
+      "editor_asset_sha256": "25514bd3dcebe08709a098ab0e5bf51480b03cb01ef5665643abf8c25359fb71"
+    },
+    {
+      "source": "HZOI_Standing_hand_job_M.fbx",
+      "source_sha256": "148cfcda4ab2baf01690fa4f2b33c1d98276c5f8090d89e90ca7e6a9e9cd8b64",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_hand_job_M.HZOI_Standing_hand_job_M",
+      "editor_asset_sha256": "84ddeea9fed3c28793afd13eb0b492f0d22e5376675e278a7f2ea1b43331fa88"
+    },
+    {
+      "source": "HZOI_Standing_hand_job_MA.fbx",
+      "source_sha256": "06a981b24429e1f7b3b6c6354bde48af6038250f960c8856564f6903a1ef66ef",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_hand_job_MA.HZOI_Standing_hand_job_MA",
+      "editor_asset_sha256": "3199682ae09fdd6f6a039080f81088898426d0332f6d18cee96291746ad7cd41"
+    },
+    {
+      "source": "HZOI_Male_standing_female_kneeling_fellatio_F.fbx",
+      "source_sha256": "c3d2473edefe57ae0d58bb01e2ca3d78e4b75b95dce0f9bd5f57dfdab4246723",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_F.HZOI_Male_standing_female_kneeling_fellatio_F",
+      "editor_asset_sha256": "59d620706207866fbf069765bc01a8b58cef5057689a37beaab9b42064fa97d7"
+    },
+    {
+      "source": "HZOI_Male_standing_female_kneeling_fellatio_M.fbx",
+      "source_sha256": "ccab1a880c879fec1decc871105f67fb98efc058757226918857e73dbfaa9c7f",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_M.HZOI_Male_standing_female_kneeling_fellatio_M",
+      "editor_asset_sha256": "ef979aff3ea55a0ff855284af855e0aa884a9f93a73d477cce73863a65b76cf6"
+    },
+    {
+      "source": "HZOI_Male_standing_female_kneeling_fellatio_MA.fbx",
+      "source_sha256": "830749338a6fa604f60393464b681208b4fc59a0eb579850795b6b0a1326af4e",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Male_standing_female_kneeling_fellatio_MA.HZOI_Male_standing_female_kneeling_fellatio_MA",
+      "editor_asset_sha256": "6163989ab5ad7b149cfbdb9bbc0d2571535a9b4998b0d6c93b54216ee64bc8c3"
+    },
+    {
+      "source": "HZOI_Standing_rear_sex_F.fbx",
+      "source_sha256": "24a3bb3fdfaa34ec30c607112c551cdbc527572cbe6d093fdfbf214e308446c3",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_rear_sex_F.HZOI_Standing_rear_sex_F",
+      "editor_asset_sha256": "6d8f86c1240b536a6ab8563cb349f38a98cb18187dd5ae01bb890cbcc336710f"
+    },
+    {
+      "source": "HZOI_Standing_rear_sex_M.fbx",
+      "source_sha256": "f56856d94141f6f9e21b80e0e562018da3844405c03593e397ec785dbb722a53",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_rear_sex_M.HZOI_Standing_rear_sex_M",
+      "editor_asset_sha256": "fdafc3e7716a3cead37bf8d8cc6802a02dfc1277a883ba7c8bcb4af9ed503b3e"
+    },
+    {
+      "source": "HZOI_Standing_rear_sex_MA.fbx",
+      "source_sha256": "d2de30764a785e966765067a57376a1b8b9ea6287a0b4d4524689cc5aaec68f2",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_rear_sex_MA.HZOI_Standing_rear_sex_MA",
+      "editor_asset_sha256": "2c9fc34ab2200afffeb7aa4f675bd72a6c6986937814929c38795668b9e81dd6"
+    },
+    {
+      "source": "HZoi_bed_idle_MA.fbx",
+      "source_sha256": "98476af2862bcb0b183940514714c142b3a121ded376324814a1b39013d7226e",
+      "asset": "/HZoi_660649D8/Animations/HZoi_Bed_idle_MA.HZoi_Bed_idle_MA",
+      "editor_asset_sha256": "a17ad5bedd1632fed871edfeb2a3f84bc5dd6e3618ad9de92cd4005892aff6fb"
+    },
+    {
+      "source": "HZoi_bed_fellatio_F.fbx",
+      "source_sha256": "1fc6e23b056138a6d0ad3eecd20b7cb5573fd45b53b038adb6a85a572720ddf4",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_fellatio_F.HZoi_bed_fellatio_F",
+      "editor_asset_sha256": "02b309fbb26c323b63a8c8d6eb9d22bf8dae9e6a04ff3dac14a07eef99d73e0a"
+    },
+    {
+      "source": "HZoi_bed_fellatio_M.fbx",
+      "source_sha256": "6e8e104b75ffccccdc787819144add139bafe8dc12d4e23c9504bd1c67d8bd3c",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_fellatio_M.HZoi_bed_fellatio_M",
+      "editor_asset_sha256": "4091464829905de83f6fe2119304a5ce20f46f89b9dee40029e95db5afabcf16"
+    },
+    {
+      "source": "HZoi_bed_fellatio_MA.fbx",
+      "source_sha256": "b35440441ec29b95ab8e0a4685be516d228d924abe02d16d625e7297743e139c",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_fellatio_MA.HZoi_bed_fellatio_MA",
+      "editor_asset_sha256": "611864a69c559984062198c730a9cffed778dacd9960c5f63fa52033a4f78993"
+    },
+    {
+      "source": "HZoi_bed_female_mounted_sex_kissing_F.fbx",
+      "source_sha256": "1729bd681a6b16bad866ef2bb184b01ea3b6c1f14c81f88139058e3d069c877b",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_female_mounted_sex_kissing_F.HZoi_bed_female_mounted_sex_kissing_F",
+      "editor_asset_sha256": "19cb13f3c77c0bed7e529e4ea18ef30c51c3df6da2205222596bc011ee6016ef"
+    },
+    {
+      "source": "HZoi_bed_female_mounted_sex_kissing_M.fbx",
+      "source_sha256": "3a86c76719ab775cd912ac793a81e8eab3248d9a9fba7914a8d4128fcde41dbc",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_female_mounted_sex_kissing_M.HZoi_bed_female_mounted_sex_kissing_M",
+      "editor_asset_sha256": "4cb8f7547123776bcde159a1d35a9e08be7772d9c73857a808d4a5828637c292"
+    },
+    {
+      "source": "HZoi_bed_female_mounted_sex_kissing_MA.fbx",
+      "source_sha256": "446ade4bc097ad1cdc4e1cef1475ab0384de9dc0ac39bdba86a32ea4c5a49860",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_female_mounted_sex_kissing_MA.HZoi_bed_female_mounted_sex_kissing_MA",
+      "editor_asset_sha256": "e0092c7399ed7c2843b04bd787cf1193ea0ed6d2d840686c3f9183375482e434"
+    },
+    {
+      "source": "HZoi_bed_handjob_F.fbx",
+      "source_sha256": "21777f4bd3b75cf0486d2f0358b2089d1e1848b1ccf75e52c9873feee0548e6d",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_handjob_F.HZoi_bed_handjob_F",
+      "editor_asset_sha256": "b42812fcac478b6735d0fb87473b2c895d15d068cb0a27803fe86b78efeaf87c"
+    },
+    {
+      "source": "HZoi_bed_handjob_M.fbx",
+      "source_sha256": "454db5b4457714df8d950bae8a52590cf016bff39769d6051f80cb3b9c26548e",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_handjob_M.HZoi_bed_handjob_M",
+      "editor_asset_sha256": "e908e0e358afff795944f0c167cc370c3074e3fc07a34bb352344aa9a4baab28"
+    },
+    {
+      "source": "HZoi_bed_handjob_MA.fbx",
+      "source_sha256": "fcd1a7358dc5e6550d84dff21a7cdb62ab86a0e6ffacc8421f35e4cf00d8f202",
+      "asset": "/HZoi_660649D8/Animations/HZoi_bed_handjob_MA.HZoi_bed_handjob_MA",
+      "editor_asset_sha256": "6be51895e00fb80b4d0b58fd15ed8a2377ea044df06a9a405397acea7a68452c"
+    }
+  ],
+  "excluded_animations": [
+    {
+      "source": "HZOI_Standing_idle_F.fbx",
+      "source_sha256": "50d72e5169464d330ff10c97fc80e8ae7380f237dc531dcfb221c86e3ef59dc1",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_idle_F.HZOI_Standing_idle_F",
+      "editor_asset_sha256": "378ee19f6e88d415d4cd96845d76812adab9c47e3468adcc65e68514b6424ad0",
+      "license": "GPL-3.0-only",
+      "framework_asset": "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_F.SceneZOI_Standing_idle_F",
+      "reason": "Same underlying body motion as the SceneZOI GPL-distributed copy; existing grants, including earlier covered versions, remain separate."
+    },
+    {
+      "source": "HZOI_Standing_idle_M.fbx",
+      "source_sha256": "ec12f54bcffbc9159b29b6c4a15d49963ed0c71bfdca93d8efd39c64891d6678",
+      "asset": "/HZoi_660649D8/Animations/HZOI_Standing_idle_M.HZOI_Standing_idle_M",
+      "editor_asset_sha256": "18eb5375dc04123a9f25ae66693d4e79ebb02191a92957ba498453feaf3e978c",
+      "license": "GPL-3.0-only",
+      "framework_asset": "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_M.SceneZOI_Standing_idle_M",
+      "reason": "Same underlying body motion as the SceneZOI GPL-distributed copy; existing grants, including earlier covered versions, remain separate."
+    }
+  ],
+  "other_exclusions": [
+    {
+      "id": "framework_code_and_bed_idles",
+      "description": "SceneZOI framework/SDK code and all four neutral body idles keep their applicable GPL grants. Bed body idles are referenced, not included among HZoi's 22 owned tracks. GPL-3.0-only.txt is the separate GPL text, not the license for the rest of HZoi.",
+      "assets": [
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_F.SceneZOI_Standing_idle_F",
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_M.SceneZOI_Standing_idle_M",
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Bed_idle_F.SceneZOI_Bed_idle_F",
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Bed_idle_M.SceneZOI_Bed_idle_M"
+      ]
+    },
+    {
+      "id": "audio",
+      "description": "Proprietary recordings remain under their owners' terms; credits do not grant redistribution rights.",
+      "asset_prefixes": [
+        "/HZoi_660649D8/Audio/"
+      ]
+    },
+    {
+      "id": "anatomy_and_supporting_assets",
+      "description": "The anatomy mesh is credited to Free Blender Model - The Vagrant by Ryan Reos. Meshes, skeletons, materials, textures and compatibility resources are outside this original-motion license and retain their respective rights.",
+      "asset_prefixes": [
+        "/HZoi_660649D8/Attachments/",
+        "/HZoi_660649D8/Materials/",
+        "/HZoi_660649D8/Textures/",
+        "/HZoi_660649D8/Compatibility/"
+      ]
+    },
+    {
+      "id": "game_engine_and_optional_libraries",
+      "description": "Referenced Game/Engine resources and separately distributed AAL resources are not licensed by this document.",
+      "asset_prefixes": [
+        "/Game/",
+        "/Engine/",
+        "/AAL/"
+      ]
+    },
+    {
+      "id": "reference_placeholders",
+      "description": "All newly generated skeleton-reference-pose placeholders in HZoi Reference are excluded, regardless of matching asset names. They contain none of the original motion identified above."
+    },
+    {
+      "id": "scene_data_schema_docs_and_tools",
+      "description": "Scene JSON, schemas, configuration, documentation and developer tools are outside this animation-only license; no repository-wide license is granted."
+    }
+  ],
+  "prior_grants": "No valid prior permission, GPL grant, copyright exception or other mandatory legal right is withdrawn or narrowed. Paths/hashes identify motion, not a power to relicense another owner's work.",
+  "official_download": "https://www.patreon.com/skyrimaceanimations/posts/hzoi-public-174452155"
+}

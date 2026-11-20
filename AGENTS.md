@@ -23,3 +23,8 @@ contracts and tests when checking SceneZOI behavior.
   against SceneZOI 1.3.9 or newer.
 
 Preserve working changes. Commit, push, publish or install only when asked.
+
+Preserve the separate original-motion license and rights inventory. They refer
+to the original player pack, not the reference rest poses. Keep the standing
+body idle GPL exclusions and other prior/third-party rights separate; copying
+GPL-3.0-only.txt here does not grant a repository-wide license.

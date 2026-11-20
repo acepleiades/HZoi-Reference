@@ -42,6 +42,13 @@ the player pack to review motion and contact.
 
 ## Rights and attribution
 
+The separately distributed original HZoi motion has an
+[animation-only license](HZOI-ANIMATION-LICENSE.txt) for SceneZOI and genuine
+GPL-compliant forks. Its [rights inventory](ANIMATION-RIGHTS.json) preserves
+existing GPL grants and keeps third-party assets separate. Read the
+[reuse guide](docs/animation-rights.md). The rest-pose placeholders in this
+repository contain none of that motion and are outside those restrictions.
+
 This repository has no repository-wide license. For your own mod, use assets
 you made or have permission to distribute. The framework is GPL-licensed in
 its own repository. The anatomy mesh is credited to
