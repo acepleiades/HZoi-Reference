@@ -1,0 +1,12 @@
+{
+  "friendlyName": "",
+  "projectName": "HZoi",
+  "description": "HZoi animations, assets and declarative scene content for SceneZOI.",
+  "author": "acenetizen",
+  "version": "",
+  "url": "",
+  "assetLocation": "",
+  "dependencies": ["SceneZOI_93C44199"],
+  "assets": [],
+  "nonAssets": []
+}

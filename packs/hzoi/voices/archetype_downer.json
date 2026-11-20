@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.downer",
+  "label": "Downer",
+  "body": "female",
+  "default": false
+}

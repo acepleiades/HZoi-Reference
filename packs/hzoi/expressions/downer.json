@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.downer",
+  "label": "Downer",
+  "body": "female",
+  "default": false,
+  "contexts": {
+    "Idle": {
+      "hold": [
+        5.0,
+        11.0
+      ],
+      "transition": 0.35,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Normal.ANIM_F_Face_Normal",
+          "weight": 1,
+          "label": "Normal"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Bored.ANIM_F_Face_Bored",
+          "weight": 1,
+          "label": "Bored"
+        }
+      ]
+    },
+    "Pleasure": {
+      "hold": [
+        2.4,
+        7.0
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Bored.ANIM_F_Face_Bored",
+          "weight": 1,
+          "label": "Bored"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Tired.ANIM_F_Face_Tired",
+          "weight": 1,
+          "label": "Tired"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Preoccupied.ANIM_F_Face_Preoccupied",
+          "weight": 1,
+          "label": "Preoccupied"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Immersed.ANIM_F_Face_Immersed",
+          "weight": 1,
+          "label": "Immersed"
+        }
+      ]
+    },
+    "Kiss": {
+      "hold": [
+        6,
+        6
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Target_Lover_Hug_Kiss.ANIM_F_Face_Target_Lover_Hug_Kiss",
+          "weight": 1,
+          "label": "Kiss",
+          "sample": 4.5
+        }
+      ]
+    }
+  },
+  "aliases": [
+    "scenezoi.downer"
+  ]
+}

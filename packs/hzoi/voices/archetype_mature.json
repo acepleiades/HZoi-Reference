@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.mature",
+  "label": "Mature",
+  "body": "female",
+  "default": true
+}

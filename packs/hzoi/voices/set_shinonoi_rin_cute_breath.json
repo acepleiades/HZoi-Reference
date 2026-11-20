@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.shinonoi_rin_cute_breath",
+  "label": "Shinonoi Rin Cute Breath",
+  "body": "female",
+  "archetype": "hzoi.cute",
+  "context": "breath",
+  "clips": [
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A01.SW_A01",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A02.SW_A02",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A03.SW_A03",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A04.SW_A04",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A05.SW_A05",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A06.SW_A06",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A07.SW_A07",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A08.SW_A08",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A09.SW_A09",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A10.SW_A10",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A11.SW_A11",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A12.SW_A12",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A13.SW_A13",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A14.SW_A14",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A15.SW_A15",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A16.SW_A16",
+    "/HZoi_660649D8/Audio/Voice/01_Kawaii/shinonoi_rin_kawaii_breath/SW_A17.SW_A17"
+  ],
+  "volume": 0.9,
+  "gap": 0
+}

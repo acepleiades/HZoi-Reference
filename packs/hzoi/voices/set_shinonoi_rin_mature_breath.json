@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.shinonoi_rin_mature_breath",
+  "label": "Shinonoi Rin Mature Breath",
+  "body": "female",
+  "archetype": "hzoi.mature",
+  "context": "breath",
+  "clips": [
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B01.SW_B01",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B02.SW_B02",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B03.SW_B03",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B04.SW_B04",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B05.SW_B05",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B06.SW_B06",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B07.SW_B07",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B08.SW_B08",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B09.SW_B09",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B10.SW_B10",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B11.SW_B11",
+    "/HZoi_660649D8/Audio/Voice/02_Otona/shinonoi_rin_otona_breath/SW_B12.SW_B12"
+  ],
+  "volume": 0.9,
+  "gap": 0
+}

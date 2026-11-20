@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.confident",
+  "label": "Confident",
+  "body": "male",
+  "default": true,
+  "contexts": {
+    "Idle": {
+      "hold": [
+        5.0,
+        11.0
+      ],
+      "transition": 0.35,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Confident.ANIM_M_Face_Confident",
+          "weight": 1,
+          "label": "Confident"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Joyful.ANIM_M_Face_Joyful",
+          "weight": 1,
+          "label": "Joyful"
+        }
+      ]
+    },
+    "Pleasure": {
+      "hold": [
+        2.4,
+        7.0
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Confident.ANIM_M_Face_Confident",
+          "weight": 1,
+          "label": "Confident"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Joyful.ANIM_M_Face_Joyful",
+          "weight": 1,
+          "label": "Joyful"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Calm.ANIM_M_Face_Calm",
+          "weight": 1,
+          "label": "Calm"
+        }
+      ]
+    },
+    "Kiss": {
+      "hold": [
+        6,
+        6
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Lover_Hug_Kiss.ANIM_M_Face_Lover_Hug_Kiss",
+          "weight": 1,
+          "label": "Kiss",
+          "sample": 4.5
+        }
+      ]
+    }
+  },
+  "aliases": [
+    "scenezoi.confident"
+  ]
+}

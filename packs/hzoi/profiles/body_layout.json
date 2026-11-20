@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.body_layout",
+  "section": 17,
+  "coverage_bit": 17,
+  "full_coverage_exception": true,
+  "patch_mesh": "/HZoi_660649D8/Compatibility/StockCoveragePatch.StockCoveragePatch",
+  "patch_material_slot": "shader_body_shader18",
+  "morph": "Body_Muscle"
+}

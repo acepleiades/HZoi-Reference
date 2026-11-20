@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.skin_hair",
+  "source_material": 17,
+  "skin_slot": "Penis_001",
+  "hair_slot": "Pubes_001",
+  "skin_parameter": "SkinTint",
+  "hair_parameter": "HairColor",
+  "chromophore_parameter": "SkinChromophore",
+  "source_skin_parameter": "SkinTone Color",
+  "source_chromophore_parameter": "Chromophore Contribution",
+  "source_hair_parameter": "TipColor"
+}

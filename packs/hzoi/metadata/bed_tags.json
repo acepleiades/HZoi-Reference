@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.bed_tags",
+  "tags": [
+    {
+      "id": "hzoi.lower_legs_crossed",
+      "description": "Lower legs cross above the supporting surface."
+    },
+    {
+      "id": "hzoi.hands_behind_head",
+      "description": "Both hands are positioned behind the participant’s head."
+    },
+    {
+      "id": "hzoi.torso_supported_by_hands",
+      "description": "Hands brace the upper body against the supporting surface."
+    },
+    {
+      "id": "hzoi.torso_supported_by_elbows",
+      "description": "Elbows brace the upper body against the supporting surface."
+    },
+    {
+      "id": "hzoi.looking_at_partner_pelvis",
+      "description": "Gaze is directed toward the partner’s pelvis."
+    },
+    {
+      "id": "hzoi.looking_at_partner_head",
+      "description": "Gaze is directed toward the partner’s head."
+    },
+    {
+      "id": "hzoi.missionary",
+      "description": "Face-to-face position with one participant lying on their back and the other above and between their legs."
+    }
+  ]
+}

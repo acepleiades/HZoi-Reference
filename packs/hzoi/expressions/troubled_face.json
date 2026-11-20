@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "id": "hzoi.troubled_face",
+  "label": "Troubled face",
+  "body": "female",
+  "default": false,
+  "contexts": {
+    "Idle": {
+      "hold": [
+        5.0,
+        11.0
+      ],
+      "transition": 0.35,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Preoccupied.ANIM_F_Face_Preoccupied",
+          "weight": 1,
+          "label": "Preoccupied"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Uneasy.ANIM_F_Face_Uneasy",
+          "weight": 1,
+          "label": "Uneasy"
+        }
+      ]
+    },
+    "Pleasure": {
+      "hold": [
+        2.4,
+        7.0
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Embarassed.ANIM_F_Face_Embarassed",
+          "weight": 1,
+          "label": "Embarassed"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Uneasy.ANIM_F_Face_Uneasy",
+          "weight": 1,
+          "label": "Uneasy"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Nervous.ANIM_F_Face_Nervous",
+          "weight": 1,
+          "label": "Nervous"
+        },
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Worried.ANIM_F_Face_Worried",
+          "weight": 1,
+          "label": "Worried"
+        }
+      ]
+    },
+    "Kiss": {
+      "hold": [
+        6,
+        6
+      ],
+      "transition": 0.25,
+      "options": [
+        {
+          "animation": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Target_Lover_Hug_Kiss.ANIM_F_Face_Target_Lover_Hug_Kiss",
+          "weight": 1,
+          "label": "Kiss",
+          "sample": 4.5
+        }
+      ]
+    }
+  },
+  "aliases": [
+    "scenezoi.komarigao"
+  ]
+}
