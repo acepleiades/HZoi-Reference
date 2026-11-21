@@ -274,13 +274,13 @@
   "participant_tags": {
     "male": [
       "sitting",
-      "hzoi.sitting_close_to_partner"
+      "sitting_close_to_partner"
     ],
     "female": [
       "sitting",
-      "hzoi.sitting_close_to_partner",
-      "hzoi.on_partner_right",
-      "hzoi.right_hand_on_partner_penis"
+      "sitting_close_to_partner",
+      "on_partner_right",
+      "right_hand_on_partner_penis"
     ]
   },
   "actions": [

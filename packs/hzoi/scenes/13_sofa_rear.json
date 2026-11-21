@@ -311,19 +311,19 @@
     "male": [
       "sitting",
       "on_bottom",
-      "hzoi.bouncing",
-      "hzoi.hand_on_partner_lower_body",
-      "hzoi.hand_on_partner_left_thigh",
-      "hzoi.looking_at_partner_head"
+      "bouncing",
+      "hand_on_partner_lower_body",
+      "hand_on_partner_thigh",
+      "looking_at_partner_head"
     ],
     "female": [
       "sitting",
       "on_top",
       "lap",
       "facing_away",
-      "hzoi.bouncing",
-      "hzoi.hand_over_partner_hand",
-      "hzoi.looking_at_partner_head"
+      "bouncing",
+      "hand_over_partner_hand",
+      "looking_at_partner_head"
     ]
   },
   "actions": [

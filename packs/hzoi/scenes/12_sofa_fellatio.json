@@ -238,13 +238,13 @@
   "participant_tags": {
     "male": [
       "sitting",
-      "hzoi.looking_at_partner_head"
+      "looking_at_partner_head"
     ],
     "female": [
       "kneeling",
-      "hzoi.on_floor",
-      "hzoi.on_partner_left",
-      "hzoi.looking_at_partner_pelvis"
+      "on_floor",
+      "on_partner_left",
+      "looking_at_partner_pelvis"
     ]
   },
   "actions": [

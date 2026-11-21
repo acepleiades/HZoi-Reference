@@ -1,5 +1,10 @@
 # Working on HZoi Reference
 
+New scene/participant tag definitions belong in SceneZOI's
+`packs/scenezoi/metadata/tags.json`, with plain shared IDs. Update that
+dictionary and its metadata/search tests instead of adding a content-pack
+tag dictionary or pack-prefixed tag IDs.
+
 Read the [README](README.md) and [setup and checks](docs/reference-assets.md).
 This is the public authoring edition of HZoi. Keep it separate from the private
 HZoi project and the installed player pack. Prefer the framework's public

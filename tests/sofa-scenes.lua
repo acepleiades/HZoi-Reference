@@ -37,20 +37,20 @@ for name,original_id in pairs(counterparts)do
 end
 for _,id in ipairs({'hzoi.sofa_idle','hzoi.sofa_handjob'})do
  local node=nodes[id]
- assert(contains(node.tags,'eye_contact')and contains(node.participant_tags.female,'hzoi.on_partner_right'))
+ assert(contains(node.tags,'eye_contact')and contains(node.participant_tags.female,'on_partner_right'))
  for role,other in pairs({male='female',female='male'})do
   assert(V.equal(node.gaze[role],{participant=other,component='head',bones={'FACIAL_L_Eye','FACIAL_R_Eye'}}))
  end
 end
 assert(#idle.actions==1 and action(idle,'hug','male').target=='female','The female is not authoring a second embrace')
-assert(contains(idle.participant_tags.male,'hzoi.arm_over_partner_right_shoulder'))
+assert(contains(idle.participant_tags.male,'arm_over_partner_shoulder'))
 local hand=nodes['hzoi.sofa_handjob']
 assert(action(hand,'handjob','female').target=='male'and action(hand,'holding_waist','male').target=='female')
-assert(contains(hand.participant_tags.female,'hzoi.right_hand_on_partner_penis'))
+assert(contains(hand.participant_tags.female,'right_hand_on_partner_penis'))
 local oral=nodes['hzoi.sofa_fellatio']
 assert(#oral.actions==1 and action(oral,'fellatio','female').target=='male','No unrequested hand action')
 assert(contains(oral.participant_tags.male,'sitting')and contains(oral.participant_tags.female,'kneeling'))
-assert(contains(oral.participant_tags.female,'hzoi.on_floor')and contains(oral.participant_tags.female,'hzoi.on_partner_left'))
+assert(contains(oral.participant_tags.female,'on_floor')and contains(oral.participant_tags.female,'on_partner_left'))
 assert(V.equal(oral.gaze.male,{participant='female',component='body',bones={'head'}}))
 assert(V.equal(oral.gaze.female,{participant='male',component='body',bones={'pelvis'}}))
 local rear=nodes['hzoi.sofa_rear']
@@ -61,10 +61,10 @@ for _,value in ipairs(rear.actions)do if value.type=='vaginal_sex'then
 end end
 assert(performers.male and performers.female,'Both participants actively move')
 assert(not contains(rear.tags,'eye_contact')and contains(rear.participant_tags.female,'facing_away'))
-assert(contains(rear.participant_tags.female,'hzoi.hand_over_partner_hand'))
-assert(contains(rear.participant_tags.male,'hzoi.hand_on_partner_lower_body')and contains(rear.participant_tags.male,'hzoi.hand_on_partner_left_thigh'))
+assert(contains(rear.participant_tags.female,'hand_over_partner_hand'))
+assert(contains(rear.participant_tags.male,'hand_on_partner_lower_body')and contains(rear.participant_tags.male,'hand_on_partner_thigh'))
 for role,other in pairs({male='female',female='male'})do
- assert(contains(rear.participant_tags[role],'sitting')and contains(rear.participant_tags[role],'hzoi.bouncing'))
+ assert(contains(rear.participant_tags[role],'sitting')and contains(rear.participant_tags[role],'bouncing'))
  assert(V.equal(rear.gaze[role],{participant=other,component='body',bones={'head'}}))
 end
 local function read(path)local f=assert(io.open(path,'rb'));local raw=f:read('*a');f:close();return J.decode(raw)end

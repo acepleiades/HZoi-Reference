@@ -84,13 +84,13 @@
   "participant_tags": {
     "male": [
       "sitting",
-      "hzoi.sitting_close_to_partner",
-      "hzoi.arm_over_partner_right_shoulder"
+      "sitting_close_to_partner",
+      "arm_over_partner_shoulder"
     ],
     "female": [
       "sitting",
-      "hzoi.sitting_close_to_partner",
-      "hzoi.on_partner_right"
+      "sitting_close_to_partner",
+      "on_partner_right"
     ]
   },
   "actions": [

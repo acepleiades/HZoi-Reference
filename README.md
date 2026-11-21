@@ -2,8 +2,11 @@
 
 **Looking for the mod?** [Download the free HZoi player ZIP](https://www.patreon.com/skyrimaceanimations/posts/scenezoi-hzoi-174452155). [Get SceneZOI](https://acepleiades.github.io/SceneZOI/).
 
-This is HZoi's authoring edition. Use a SceneZOI build with sofa furniture
-support. It contains all 18 standing, bed and sofa scene definitions, the supporting pack data,
+This is HZoi's authoring edition. Use the matching current SceneZOI build with
+sofa-pair support and the shared pose and contact tags used by these scenes. The
+`furniture_pairs` feature flag alone does not confirm that an earlier build
+includes those shared tags; this pack no longer declares them.
+It contains all 18 standing, bed and sofa scene definitions, the supporting pack data,
 34 rest-pose animation placeholders, the 10 supporting ModKit assets, and
 silent replacements for all 702 proprietary audio sources. The original
 animation motion and recordings are not included.

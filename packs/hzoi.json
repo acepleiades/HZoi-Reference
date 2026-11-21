@@ -288,14 +288,6 @@
     {
       "kind": "localization",
       "file": "hzoi/localization/text.json"
-    },
-    {
-      "kind": "tag_dictionary",
-      "file": "hzoi/metadata/bed_tags.json"
-    },
-    {
-      "kind": "tag_dictionary",
-      "file": "hzoi/metadata/sofa_tags.json"
     }
   ]
 }

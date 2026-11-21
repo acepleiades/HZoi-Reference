@@ -34,7 +34,7 @@ for _,size in ipairs({'queen','single'})do
  assert(external.hide_if_tracks_missing and external.furniture.kind=='bed.'..size)
  assert(external.navigation[1].target==prefix..'idle')
  assert(external.tracks.male:match('^/Game/AAL/') and external.tracks.female:match('^/Game/AAL/'))
- assert(external.label=='Missionary' and V.equal(external.tags,{'eye_contact','hzoi.missionary'}))
+ assert(external.label=='Missionary' and V.equal(external.tags,{'eye_contact','missionary'}))
  assert(external.participant_tags.male[1]=='kneeling' and external.participant_tags.female[1]=='lying_on_back')
  assert(external.gaze.male.participant=='female' and external.gaze.female.participant=='male')
  local hold=external.actions[2]
@@ -46,8 +46,6 @@ local incompatible=V.copy(content);incompatible.nodes[1].participants.male.body=
 local linked=S.compile({docs[1],{source='incompatible',data=incompatible}});assert(#linked.warnings>0 and #linked.nodes['scenezoi.standing_idle'].navigation==0)
 local snapshot={by_kind={scene_pack=docs}}
 for kind,file in pairs({tag_dictionary='tags',action_dictionary='actions'})do snapshot.by_kind[kind]={{owner='scenezoi',source=file,data=read('packs/scenezoi/metadata/'..file..'.json')}}end
-table.insert(snapshot.by_kind.tag_dictionary,{owner='hzoi',source='bed_tags',data=read(TEST_CONTENT_ROOT..'/packs/hzoi/metadata/bed_tags.json')})
-table.insert(snapshot.by_kind.tag_dictionary,{owner='hzoi',source='sofa_tags',data=read(TEST_CONTENT_ROOT..'/packs/hzoi/metadata/sofa_tags.json')})
 for kind,file in pairs({body_profile='body_layout',material_profile='skin_hair',coverage_attachment='region_attachment'})do snapshot.by_kind[kind]={{source=file,data=read(TEST_CONTENT_ROOT..'/packs/hzoi/profiles/'..file..'.json')}}end
 local profiles=P.compile(snapshot);assert(#profiles.warnings==0 and profiles.rules['hzoi.region_attachment'])
 for _,size in ipairs({'queen','single'})do

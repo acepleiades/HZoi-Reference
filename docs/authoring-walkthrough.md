@@ -40,14 +40,21 @@ The scenes keep these details distinct:
 | [Idle](../packs/hzoi/scenes/10_sofa_idle.json) | The female sits on the male's right. He rests an arm over her right shoulder. Both look at the other's eyes; only the male performs the embrace. |
 | [Handjob](../packs/hzoi/scenes/11_sofa_handjob.json) | The seating and eye contact remain. Her right hand performs the action; his hand holds her waist. |
 | [Fellatio](../packs/hzoi/scenes/12_sofa_fellatio.json) | He sits; she kneels on the floor on his left. His gaze targets her head; hers targets his pelvis. |
-| [Rear sex](../packs/hzoi/scenes/13_sofa_rear.json) | She sits on him facing away and both actively move. They look toward each other's head without an `eye_contact` tag. The hand-contact tags describe the lower body, left thigh and overlapping hands. |
+| [Rear sex](../packs/hzoi/scenes/13_sofa_rear.json) | She sits on him facing away and both actively move. They look toward each other's head without an `eye_contact` tag. The tags describe lower-body, thigh and overlapping-hand contact without fixing the thigh side. |
 
 For the last scene, two `vaginal_sex` action records share the same anatomical
 `actor` and `target`, but use different `performer` values. This tells a
 gameplay integration that both participants actively move. Reversing actor
-and target would describe a different anatomical action. The additional
-`hzoi.*` tags are defined in [the sofa dictionary](../packs/hzoi/metadata/sofa_tags.json),
-so their meaning is explicit and does not conflict with another pack's tags.
+and target would describe a different anatomical action. Tags such as
+`on_partner_right`, `hand_on_partner_thigh` and `bouncing`
+come from [SceneZOI's shared dictionary](https://github.com/acepleiades/SceneZOI/blob/main/packs/scenezoi/metadata/tags.json).
+These are plain shared IDs. SceneZOI supplies their definitions, so other
+packs can use them without requiring HZoi. Add new tags to SceneZOI's shared
+dictionary and submit a pull request; do not add a tag dictionary to your pack.
+Using the same IDs lets gameplay integrations find the same posture or contact across packs.
+Use the matching current SceneZOI build with both sofa-pair support and these
+shared definitions. The `furniture_pairs` feature flag confirms the former; it does
+not establish that an earlier build contains the shared tag dictionary.
 
 Gaze chooses an eye target. It does not repair a head or body pose, so keep
 head movement in the animation and test the result from several camera angles.

@@ -301,9 +301,19 @@ class CatalogTests(unittest.TestCase):
             build([ROOT/'packs/hzoi.json'],missing_framework,expression_project=content)
             self.assertFalse(missing_framework.exists())
             records=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
-            self.assertEqual(len(records),35)
+            self.assertEqual(len(records),33)
             self.assertEqual({row['owner']for row in records},{'hzoi'})
-            self.assertEqual({row['kind']for row in records},{'expression_set','scene_pack','body_profile','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization','tag_dictionary'})
+            self.assertEqual({row['kind']for row in records},{'expression_set','scene_pack','body_profile','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization'})
+
+    def test_authored_tags_use_the_shared_framework_dictionary(self):
+        pack=load_pack(ROOT/'packs/hzoi.json')
+        self.assertFalse(any(row['kind']=='tag_dictionary' for row in pack.get('data_files',[])))
+        shared=json.loads((FRAMEWORK/'packs/scenezoi/metadata/tags.json').read_text(encoding='utf-8'))
+        canonical={row['id'] for row in shared['tags']}
+        for scene in pack['nodes']:
+            tags=scene.get('tags',[])+[tag for values in scene.get('participant_tags',{}).values() for tag in values]
+            self.assertTrue(set(tags)<=canonical,scene['id'])
+            self.assertTrue(all('.' not in tag for tag in tags),scene['id'])
 
     def test_shared_declarations_are_separate_and_owned(self):
         import tempfile,hashlib
@@ -320,7 +330,7 @@ class CatalogTests(unittest.TestCase):
             build(packs,project,expression_project=content)
             inventory=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))
             self.assertEqual(len(inventory['files']),1)
-            self.assertEqual(len(inventory['records']),35)
+            self.assertEqual(len(inventory['records']),33)
             framework_records=json.loads((project/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
             self.assertEqual(len(framework_records),16)
             self.assertEqual([row['id'] for row in framework_records if row['kind']=='scene_task'],

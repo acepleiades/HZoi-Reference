@@ -239,16 +239,16 @@
     "male": [
       "sitting",
       "torso_leaning_back",
-      "hzoi.torso_supported_by_hands",
-      "hzoi.looking_at_partner_head"
+      "torso_supported_by_hands",
+      "looking_at_partner_head"
     ],
     "female": [
       "lying_on_front",
       "in_front_of_partner",
       "between_partner_legs",
       "legs_raised",
-      "hzoi.lower_legs_crossed",
-      "hzoi.looking_at_partner_pelvis"
+      "lower_legs_crossed",
+      "looking_at_partner_pelvis"
     ]
   },
   "actions": [

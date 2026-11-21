@@ -314,7 +314,7 @@
       "on_bottom",
       "lying_on_back",
       "torso_leaning_back",
-      "hzoi.torso_supported_by_elbows"
+      "torso_supported_by_elbows"
     ],
     "female": [
       "on_top",
