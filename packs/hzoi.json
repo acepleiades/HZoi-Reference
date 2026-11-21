@@ -17,6 +17,11 @@
       "hub": "scenezoi.bed_single_idle",
       "id": "hzoi.enter_bed_single",
       "target": "hzoi.bed_single_idle"
+    },
+    {
+      "hub": "scenezoi.sofa_idle",
+      "id": "hzoi.enter_sofa",
+      "target": "hzoi.sofa_idle"
     }
   ],
   "sound_sets": {
@@ -287,6 +292,10 @@
     {
       "kind": "tag_dictionary",
       "file": "hzoi/metadata/bed_tags.json"
+    },
+    {
+      "kind": "tag_dictionary",
+      "file": "hzoi/metadata/sofa_tags.json"
     }
   ]
 }

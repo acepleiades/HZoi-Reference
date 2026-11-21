@@ -2,9 +2,9 @@
 
 **Looking for the mod?** [Download the free HZoi player ZIP](https://www.patreon.com/skyrimaceanimations/posts/scenezoi-hzoi-174452155). [Get SceneZOI](https://acepleiades.github.io/SceneZOI/).
 
-This is the authoring edition of HZoi 1.3.2 for SceneZOI 1.3.9 or newer. It
-contains all 14 standing and bed scene definitions, the supporting pack data,
-22 rest-pose animation placeholders, the 10 supporting ModKit assets, and
+This is HZoi's authoring edition. Use a SceneZOI build with sofa furniture
+support. It contains all 18 standing, bed and sofa scene definitions, the supporting pack data,
+34 rest-pose animation placeholders, the 10 supporting ModKit assets, and
 silent replacements for all 702 proprietary audio sources. The original
 animation motion and recordings are not included.
 
@@ -15,11 +15,14 @@ animation motion and recordings are not included.
   explains why each feature is used and what to test in your own pack.
 - Open the [pack manifest](packs/hzoi.json) and [scene files](packs/hzoi/scenes/).
   Each scene has its own file. The manifest adds paths from SceneZOI’s
-  standing, single-bed, and queen-bed hubs.
+  standing, single-bed, queen-bed and sofa hubs.
 - Use the [queen-bed hub](packs/hzoi/scenes/05_queen_bed_idle.json) for furniture
   and the [optional queen-bed scene](packs/hzoi/scenes/09_queen_bed_aal_frontal.json)
   for conditional animation tracks. That scene references Ace Animations
   Library (AAL), a separate library distributed independently.
+- Compare the [sofa idle](packs/hzoi/scenes/10_sofa_idle.json) and
+  [sofa activity](packs/hzoi/scenes/13_sofa_rear.json) for a 44 cm authored
+  support plane, role-specific gaze, and two participants performing the same action.
 - For more detail, see [voices](docs/voices.md), [expressions](docs/expressions.md),
   [shared scene tasks and definition precedence](docs/scene-tasks.md), and the
   [animation inventory](docs/animations.md).

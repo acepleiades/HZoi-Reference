@@ -1,0 +1,108 @@
+{
+  "id": "hzoi.sofa_idle",
+  "label": "HZoi Sofa Idle",
+  "kind": "loop",
+  "duration": 4,
+  "fps": 60,
+  "tracks": {
+    "male": "/HZoi_660649D8/Animations/HZoi_sofa_idle_M.HZoi_sofa_idle_M",
+    "female": "/HZoi_660649D8/Animations/HZoi_sofa_idle_F.HZoi_sofa_idle_F"
+  },
+  "navigation": [
+    {
+      "id": "neutral",
+      "label": "Return...",
+      "target": "scenezoi.sofa_idle"
+    },
+    {
+      "id": "handjob",
+      "target": "hzoi.sofa_handjob"
+    },
+    {
+      "id": "fellatio",
+      "target": "hzoi.sofa_fellatio"
+    },
+    {
+      "id": "rear",
+      "target": "hzoi.sofa_rear"
+    }
+  ],
+  "participants": {
+    "male": {
+      "body": "male",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    },
+    "female": {
+      "body": "female",
+      "body_age": "Adult",
+      "growth_steps": [
+        "Youth",
+        "Adult",
+        "Old",
+        "Elderly"
+      ]
+    }
+  },
+  "anchor_participant": "male",
+  "gaze": {
+    "male": {
+      "participant": "female",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    },
+    "female": {
+      "participant": "male",
+      "component": "head",
+      "bones": [
+        "FACIAL_L_Eye",
+        "FACIAL_R_Eye"
+      ]
+    }
+  },
+  "expressions": {
+    "male": {
+      "context": "Idle"
+    },
+    "female": {
+      "context": "Idle"
+    }
+  },
+  "tags": [
+    "affectionate",
+    "sitting",
+    "eye_contact"
+  ],
+  "participant_tags": {
+    "male": [
+      "sitting",
+      "hzoi.sitting_close_to_partner",
+      "hzoi.arm_over_partner_right_shoulder"
+    ],
+    "female": [
+      "sitting",
+      "hzoi.sitting_close_to_partner",
+      "hzoi.on_partner_right"
+    ]
+  },
+  "actions": [
+    {
+      "type": "hug",
+      "actor": "male",
+      "target": "female",
+      "performer": "male"
+    }
+  ],
+  "furniture": {
+    "kind": "sofa.pair",
+    "surface_height_cm": 44
+  }
+}

@@ -5,7 +5,7 @@ forks of SceneZOI. A different framework does not get permission to use that
 motion just by reading the same JSON format.
 
 Read [HZoi Original Animation License 1.0](../HZOI-ANIMATION-LICENSE.txt).
-[ANIMATION-RIGHTS.json](../ANIMATION-RIGHTS.json) identifies the 20 covered
+[ANIMATION-RIGHTS.json](../ANIMATION-RIGHTS.json) identifies the covered
 tracks, the GPL-licensed motion excluded from these restrictions, and the
 other materials outside this license. This is a restricted asset license,
 not the GPL and not a license for every file in HZoi.
@@ -39,9 +39,12 @@ a separate replacement framework, another game or an animation library.
   distributed with SceneZOI remains under its existing GPL-3.0-only grants,
   including identical HZoi copies and earlier covered versions. The two entries
   in `excluded_animations` map those HZoi assets to their SceneZOI counterparts.
+- **Sofa body idles:** the new female and male sofa idle motion is granted
+  under GPL-3.0-only, including the identical HZoi copies. Those two entries
+  are also listed in `excluded_animations`.
 - **Framework bed body idles:** SceneZOI's female and male neutral bed tracks
   keep their existing GPL permissions. HZoi references them; they are not among
-  its 22 owned animation tracks. The separate [GPL text](../GPL-3.0-only.txt)
+  its 34 owned animation tracks. The separate [GPL text](../GPL-3.0-only.txt)
   is provided for the GPL-licensed motion, not as a license for the whole pack.
 - **Anatomy and other assets:** the Ryan Reos mesh and related third-party
   material, proprietary audio, game/engine references and optional AAL library

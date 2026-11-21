@@ -1,6 +1,6 @@
 # HZoi animation inventory
 
-The reference includes 22 rest-pose AnimSequence placeholders at HZoi's
+The reference includes 34 rest-pose AnimSequence placeholders at HZoi's
 animation paths. They use the same skeletons, frame rates and durations as
 the player pack, but contain no bone animation tracks, curves or notifies.
 Unreal holds the skeleton's reference pose throughout each placeholder.
@@ -20,6 +20,10 @@ shows the paths and timing retained for those examples, not playable HZoi motion
 | `HZoi_bed_fellatio` | F, M, MA | 10 s |
 | `HZoi_bed_female_mounted_sex_kissing` | F, M, MA | 10 s |
 | `HZoi_bed_handjob` | F, M, MA | 10 s |
+| `HZoi_sofa_idle` | F, M, MA | 4 s |
+| `HZoi_sofa_handjob` | F, M, MA | 10 s |
+| `HZoi_sofa_fellatio` | F, M, MA | 10 s |
+| `HZoi_sofa_rear_sex` | F, M, MA | 10 s |
 
 The [import plan](../imports.json) maps source filenames to the native
 object paths used by the scene JSON. The
@@ -34,6 +38,10 @@ These inventories can guide exports from your own animation rig.
 The HZoi bed idle nodes reuse the framework's neutral bed body tracks.
 The single-bed and queen-bed branches share compatible HZoi animation assets.
 The AAL scenes reference a separate library supplied by the player.
+The sofa branch uses `sofa.pair` and a 44 cm authored support plane. Its
+activity tracks contain one-second cycles at 60 fps, with the movement peak
+at frame 30 of each cycle. The full clip lasts ten seconds; it is not one
+ten-second movement cycle.
 [Placement and optional-track examples](authoring-walkthrough.md)
 
 Use the [placeholder generation steps](reference-assets.md#regenerate-the-animation-placeholders)

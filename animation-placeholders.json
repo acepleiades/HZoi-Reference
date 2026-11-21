@@ -177,6 +177,102 @@
       "duration_seconds": 10.0,
       "fps": 60,
       "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_fellatio_F.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_F.HZoi_sofa_fellatio_F",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_fellatio_M.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_M.HZoi_sofa_fellatio_M",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_fellatio_MA.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_MA.HZoi_sofa_fellatio_MA",
+      "skeleton": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy_Skeleton.HZoi_MaleAnatomy_Skeleton",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_handjob_F.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_F.HZoi_sofa_handjob_F",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_handjob_M.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_M.HZoi_sofa_handjob_M",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_handjob_MA.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_MA.HZoi_sofa_handjob_MA",
+      "skeleton": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy_Skeleton.HZoi_MaleAnatomy_Skeleton",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_idle_F.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_idle_F.HZoi_sofa_idle_F",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 4.0,
+      "fps": 60,
+      "number_of_frames": 240
+    },
+    {
+      "asset": "Animations/HZoi_sofa_idle_M.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_idle_M.HZoi_sofa_idle_M",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 4.0,
+      "fps": 60,
+      "number_of_frames": 240
+    },
+    {
+      "asset": "Animations/HZoi_sofa_idle_MA.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_idle_MA.HZoi_sofa_idle_MA",
+      "skeleton": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy_Skeleton.HZoi_MaleAnatomy_Skeleton",
+      "duration_seconds": 4.0,
+      "fps": 60,
+      "number_of_frames": 240
+    },
+    {
+      "asset": "Animations/HZoi_sofa_rear_sex_F.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_F.HZoi_sofa_rear_sex_F",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_rear_sex_M.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_M.HZoi_sofa_rear_sex_M",
+      "skeleton": "/Game/Characters/Skeletons/SK_Base.SK_Base",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
+    },
+    {
+      "asset": "Animations/HZoi_sofa_rear_sex_MA.uasset",
+      "object_path": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_MA.HZoi_sofa_rear_sex_MA",
+      "skeleton": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy_Skeleton.HZoi_MaleAnatomy_Skeleton",
+      "duration_seconds": 10.0,
+      "fps": 60,
+      "number_of_frames": 600
     }
   ]
 }

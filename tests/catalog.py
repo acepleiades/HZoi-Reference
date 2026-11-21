@@ -48,6 +48,21 @@ class CatalogTests(unittest.TestCase):
             roles = {'male', 'female'} if scene.endswith('rear') else {'male'}
             self.assertEqual(set(nodes[scene]['outfits']), roles)
 
+    def test_direct_attachment_retention_conditions_and_targets_rejected(self):
+        # Scene-local attachments remain valid; retired hub attachment providers do not.
+        spec = {'participant':'male', 'socket':'pelvis', 'reference_bone':'pelvis',
+                'mesh':'/Test/Attachment.Attachment', 'animation':'/Test/Idle.Idle',
+                'when_undressed':True, 'retain_for_session':True,
+                'retained_tracks':{'hzoi.standing_idle':'/Test/Idle.Idle'}}
+        node = next(p for p in self.packs if p['id']=='hzoi')['nodes'][0]
+        node['attachments']={'test_attachment':spec}
+        compile_packs(self.packs)
+        spec['when_undressed']='true'
+        with self.assertRaises(ValueError):compile_packs(self.packs)
+        spec['when_undressed']=True
+        spec['retained_tracks']['missing.node']=spec['animation']
+        with self.assertRaises(ValueError):compile_packs(self.packs)
+
     def test_navigation_caption_falls_back_to_destination_name(self):
         for value in ['omitted', None, '', '   ']:
             self.setUp()
@@ -95,8 +110,8 @@ class CatalogTests(unittest.TestCase):
     def test_source_inventory_matches_import_plan(self):
         inventory = {x['filename']: x for x in json.loads((ROOT / 'animation-inventory.json').read_text(encoding='utf-8'))}
         imports = json.loads((ROOT / 'imports.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(inventory), 22)
-        self.assertEqual(len(imports), 22)
+        self.assertEqual(len(inventory), 34)
+        self.assertEqual(len(imports), 34)
         self.assertEqual({x['source'] for x in imports}, set(inventory))
         for entry in imports:
             clip = inventory[entry['source']]
@@ -108,7 +123,7 @@ class CatalogTests(unittest.TestCase):
             take = clip['takes'][0]
             self.assertEqual(take['start_frame'], 0)
             filename = entry['source']
-            expected_frames = 240 if filename == 'HZoi_bed_idle_MA.fbx' else (
+            expected_frames = 240 if filename == 'HZoi_bed_idle_MA.fbx' or filename.startswith('HZoi_sofa_idle_') else (
                 180 if 'idle' in filename else 600)
             self.assertEqual(take['end_frame'], expected_frames)
 
@@ -286,7 +301,7 @@ class CatalogTests(unittest.TestCase):
             build([ROOT/'packs/hzoi.json'],missing_framework,expression_project=content)
             self.assertFalse(missing_framework.exists())
             records=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
-            self.assertEqual(len(records),34)
+            self.assertEqual(len(records),35)
             self.assertEqual({row['owner']for row in records},{'hzoi'})
             self.assertEqual({row['kind']for row in records},{'expression_set','scene_pack','body_profile','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization','tag_dictionary'})
 
@@ -305,9 +320,9 @@ class CatalogTests(unittest.TestCase):
             build(packs,project,expression_project=content)
             inventory=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))
             self.assertEqual(len(inventory['files']),1)
-            self.assertEqual(len(inventory['records']),34)
+            self.assertEqual(len(inventory['records']),35)
             framework_records=json.loads((project/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
-            self.assertEqual(len(framework_records),11)
+            self.assertEqual(len(framework_records),16)
             self.assertEqual([row['id'] for row in framework_records if row['kind']=='scene_task'],
                              ['SceneZOI_Declaration_scenezoi__scene_task__excitement'])
             for entry in inventory['files']:

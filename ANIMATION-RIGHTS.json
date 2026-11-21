@@ -124,6 +124,66 @@
       "source_sha256": "fcd1a7358dc5e6550d84dff21a7cdb62ab86a0e6ffacc8421f35e4cf00d8f202",
       "asset": "/HZoi_660649D8/Animations/HZoi_bed_handjob_MA.HZoi_bed_handjob_MA",
       "editor_asset_sha256": "6be51895e00fb80b4d0b58fd15ed8a2377ea044df06a9a405397acea7a68452c"
+    },
+    {
+      "source": "HZoi_sofa_fellatio_F.fbx",
+      "source_sha256": "265ba6829ac01af12113d8155788899a1492b0234c1457d0924990d8df5a7515",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_F.HZoi_sofa_fellatio_F",
+      "editor_asset_sha256": "d2e51e95ac509f866df59c37ee6a99c4105db4ea5955bbb571611ce37b95e682"
+    },
+    {
+      "source": "HZoi_sofa_fellatio_M.fbx",
+      "source_sha256": "bb8ac8be8e269ce1b8f227881209855c5031294c1efdb6838904a2bb7693a9ee",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_M.HZoi_sofa_fellatio_M",
+      "editor_asset_sha256": "b19c4de1cdaa5231d9a9f118597c6d5bbda6225d949e817942f49361237468b0"
+    },
+    {
+      "source": "HZoi_sofa_fellatio_MA.fbx",
+      "source_sha256": "1e70be6e620baa9bbc793250dc9936d276f09e39528ce3a885a8986f61721961",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_fellatio_MA.HZoi_sofa_fellatio_MA",
+      "editor_asset_sha256": "19a171acaf540f3c09efbffcb5d72537ac23a9a139f9d71a730557dfd1426530"
+    },
+    {
+      "source": "HZoi_sofa_handjob_F.fbx",
+      "source_sha256": "9e41bf34ffe6ed99a002f81a2207fc1572df5ee8422b367cd234a4e8afef8100",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_F.HZoi_sofa_handjob_F",
+      "editor_asset_sha256": "f8352fa5abd50149c5e49ed0acccb4d9ddf144f7f4950c3a8d44bbca0edaa8c6"
+    },
+    {
+      "source": "HZoi_sofa_handjob_M.fbx",
+      "source_sha256": "908ae324d54422bb87a32bf7549d8c67bd0accbb1ee3436e30c0c298c93a1ace",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_M.HZoi_sofa_handjob_M",
+      "editor_asset_sha256": "483631257a4934a0d3b691be00d3abf93b54913f878dd0b16608312a22ff4da1"
+    },
+    {
+      "source": "HZoi_sofa_handjob_MA.fbx",
+      "source_sha256": "daf55fdd57fd0cb88f78ee6242c10dd31332a5683269c01aa31f8b3c6bdeacfd",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_handjob_MA.HZoi_sofa_handjob_MA",
+      "editor_asset_sha256": "87841ff52da9058bff44929d007c85bbbf65bbd8a5e6167016463a8350f05091"
+    },
+    {
+      "source": "HZoi_sofa_idle_MA.fbx",
+      "source_sha256": "df8e6e5ab1ad4fb563f57b6e8eb0586dc3550e675d09057f524d619e7e27f57e",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_idle_MA.HZoi_sofa_idle_MA",
+      "editor_asset_sha256": "c20143d41d1afcfcf2502cd1e1044564cbe7f69ec4abbcb88ee4b223815bd30f"
+    },
+    {
+      "source": "HZoi_sofa_rear_sex_F.fbx",
+      "source_sha256": "0bed1193955763fcce157247922064db488adf7525385ac28b03417a164d2907",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_F.HZoi_sofa_rear_sex_F",
+      "editor_asset_sha256": "1ea98be75d54f572a0056518b30c160a99d9f4c4b0d8317f49b4e5ffbf38c455"
+    },
+    {
+      "source": "HZoi_sofa_rear_sex_M.fbx",
+      "source_sha256": "f7812087db28b0fa7becaaca02248a737282e5ef2bd6a979388c7481d0b79f5b",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_M.HZoi_sofa_rear_sex_M",
+      "editor_asset_sha256": "a4526adcd16a8a78d87233480af4158a199305ce70705565bb009ee05b9829e2"
+    },
+    {
+      "source": "HZoi_sofa_rear_sex_MA.fbx",
+      "source_sha256": "caf9bcf4a894807d523c7eb7800f24a06558e214fc78d523f318334805a4b2cf",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_rear_sex_MA.HZoi_sofa_rear_sex_MA",
+      "editor_asset_sha256": "9f2942c3d9043aedddfa3fdbf022ea93b934e3d62b358d9dd278beca4d048b88"
     }
   ],
   "excluded_animations": [
@@ -144,17 +204,37 @@
       "license": "GPL-3.0-only",
       "framework_asset": "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_M.SceneZOI_Standing_idle_M",
       "reason": "Same underlying body motion as the SceneZOI GPL-distributed copy; existing grants, including earlier covered versions, remain separate."
+    },
+    {
+      "source": "HZoi_sofa_idle_F.fbx",
+      "source_sha256": "00540273af807dcc8e3cdaf4a87d78c0df1530bfc7b38454d7ba18614f8f924c",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_idle_F.HZoi_sofa_idle_F",
+      "editor_asset_sha256": "45534dfbb2e932321c8d98c577d359b043b36f06398422db87999110f1ae1f0e",
+      "license": "GPL-3.0-only",
+      "framework_asset": "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Sofa_idle_F.SceneZOI_Sofa_idle_F",
+      "reason": "The author grants this sofa body idle motion under GPL-3.0-only alongside its shared neutral SceneZOI copy; the identical HZoi copy is excluded from the restricted original-motion license."
+    },
+    {
+      "source": "HZoi_sofa_idle_M.fbx",
+      "source_sha256": "0930b91fa15b8d18dedf458e5974fd2fc840681ba5bd31ab4ad8b81c2b40baf0",
+      "asset": "/HZoi_660649D8/Animations/HZoi_sofa_idle_M.HZoi_sofa_idle_M",
+      "editor_asset_sha256": "1292cffd64102e35bd83ebc01196ada14f3c4de56e8f9d918e26f17495ff72e1",
+      "license": "GPL-3.0-only",
+      "framework_asset": "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Sofa_idle_M.SceneZOI_Sofa_idle_M",
+      "reason": "The author grants this sofa body idle motion under GPL-3.0-only alongside its shared neutral SceneZOI copy; the identical HZoi copy is excluded from the restricted original-motion license."
     }
   ],
   "other_exclusions": [
     {
-      "id": "framework_code_and_bed_idles",
-      "description": "SceneZOI framework/SDK code and all four neutral body idles keep their applicable GPL grants. Bed body idles are referenced, not included among HZoi's 22 owned tracks. GPL-3.0-only.txt is the separate GPL text, not the license for the rest of HZoi.",
+      "id": "framework_code_and_neutral_idles",
+      "description": "SceneZOI framework/SDK code and all six neutral body idles keep their applicable GPL grants. Bed body idles are referenced, not included among HZoi's 34 owned tracks. Standing and sofa body idle copies are separately identified in excluded_animations. GPL-3.0-only.txt is the separate GPL text, not the license for the rest of HZoi.",
       "assets": [
         "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_F.SceneZOI_Standing_idle_F",
         "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Standing_idle_M.SceneZOI_Standing_idle_M",
         "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Bed_idle_F.SceneZOI_Bed_idle_F",
-        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Bed_idle_M.SceneZOI_Bed_idle_M"
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Bed_idle_M.SceneZOI_Bed_idle_M",
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Sofa_idle_F.SceneZOI_Sofa_idle_F",
+        "/SceneZOI_93C44199/SceneZOI/Animations/SceneZOI_Sofa_idle_M.SceneZOI_Sofa_idle_M"
       ]
     },
     {

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "hzoi.sofa_tags",
+  "tags": [
+    {
+      "id": "hzoi.sitting_close_to_partner",
+      "description": "Seated close beside the partner."
+    },
+    {
+      "id": "hzoi.on_partner_right",
+      "description": "Positioned on the partner's right side, relative to the partner's body."
+    },
+    {
+      "id": "hzoi.on_partner_left",
+      "description": "Positioned on the partner's left side, relative to the partner's body."
+    },
+    {
+      "id": "hzoi.arm_over_partner_right_shoulder",
+      "description": "An arm rests over the partner's right shoulder."
+    },
+    {
+      "id": "hzoi.right_hand_on_partner_penis",
+      "description": "The right hand contacts the partner's penis."
+    },
+    {
+      "id": "hzoi.on_floor",
+      "description": "Supported by the floor rather than the furniture surface."
+    },
+    {
+      "id": "hzoi.hand_on_partner_lower_body",
+      "description": "A hand rests on or holds the partner's lower body."
+    },
+    {
+      "id": "hzoi.hand_on_partner_left_thigh",
+      "description": "A hand rests on or holds the partner's left thigh."
+    },
+    {
+      "id": "hzoi.hand_over_partner_hand",
+      "description": "A hand rests over the partner's hand."
+    },
+    {
+      "id": "hzoi.bouncing",
+      "description": "Actively raising and lowering the body in a repeated motion."
+    }
+  ]
+}

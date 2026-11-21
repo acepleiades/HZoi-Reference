@@ -7,6 +7,7 @@ HZOI_REFERENCE_ANIMATION_REPORT selects the native validation report output.
 import hashlib
 import json
 import os
+import sys
 from pathlib import Path
 
 import unreal
@@ -40,8 +41,13 @@ def main():
     assert not (project / 'Content/Audio').exists(), 'Use a separate clean reference project'
     report_path = Path(os.environ['HZOI_REFERENCE_ANIMATION_REPORT']).resolve()
     plan = json.loads((ROOT / 'animation-placeholders.json').read_text(encoding='utf-8'))
-    assert plan['pose'] == 'skeleton_reference_pose'
-    assert len(plan['assets']) == 22
+    sys.path.insert(0, str(ROOT / 'tools'))
+    from reference_animations import validate_manifest
+    imports = json.loads((ROOT / 'imports.json').read_text(encoding='utf-8'))
+    inventory = json.loads((ROOT / 'animation-inventory.json').read_text(encoding='utf-8'))
+    # Every declared import needs one fresh, correctly timed placeholder; additions
+    # are checked against the current source inventory, not a frozen asset count.
+    validate_manifest(plan, imports, inventory)
     assets = []
     report = {'success': False, 'pose': plan['pose'], 'assets': assets}
     try:

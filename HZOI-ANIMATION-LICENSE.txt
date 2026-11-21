@@ -84,7 +84,9 @@ These restrictions do not apply to:
   - The standing idle female and male body motion already distributed with
     SceneZOI under GPL-3.0-only, including identical HZoi copies and earlier
     versions covered by those grants. They are identified in the
-    "excluded_animations" list in ANIMATION-RIGHTS.json.
+    "excluded_animations" list in ANIMATION-RIGHTS.json. The female and male
+    sofa body idles, including their identical HZoi copies, are also granted
+    under GPL-3.0-only and listed there.
   - SceneZOI's neutral bed female and male body animations, its framework and
     SDK code, or any other work already covered by a valid GPL grant. A copy
     of GPL-3.0-only.txt accompanies the HZoi player package for the GPL-licensed

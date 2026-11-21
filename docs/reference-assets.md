@@ -22,8 +22,8 @@ native imports.
 
 ### Run the reference checks
 
-Use the SceneZOI 1.3.12 source or a compatible newer checkout to verify
-the task handoff behavior described in this edition.
+Use a matching current SceneZOI checkout with `sofa.pair` furniture support
+and the task handoff behavior described in this edition.
 
 ```powershell
 python tools/test.py --framework "C:/dev/SceneZOI" --modkit-root "C:/Path/To/inZOIModKit"
@@ -44,7 +44,7 @@ such as `C:/dev/HZoi-Reference`. Git for Windows also supports
 
 Use a separate ModKit-registered project for this example. The native package ID
 is `HZoi_660649D8`, the same ID used by the player and production projects.
-The overlay includes 22 rest-pose animation placeholders and 10 supporting
+The overlay includes 34 rest-pose animation placeholders and 10 supporting
 native assets. See the [animation inventory](animations.md) for their timing.
 
 1. Copy the overlay's `Content` and `SourceAssets` into the separate working

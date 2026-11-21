@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "Content/JsonPatch/Text_UI_patch.json",
-      "sha256": "adcc7ec813cb23428e9c48f66c988c977ce78c7e9d319dfe3a26668008a5d9f4"
+      "sha256": "05690e68028dc13e662d7871c4cdf2004aa443f9c013f6330a43e6144d89d697"
     }
   ],
   "records": [
@@ -73,6 +73,12 @@
       "owner": "hzoi",
       "kind": "tag_dictionary",
       "source": "bed_tags.json"
+    },
+    {
+      "id": "SceneZOI_Declaration_hzoi__tag_dictionary__sofa_tags",
+      "owner": "hzoi",
+      "kind": "tag_dictionary",
+      "source": "sofa_tags.json"
     },
     {
       "id": "SceneZOI_Declaration_hzoi__voice_archetype__archetype_cute",

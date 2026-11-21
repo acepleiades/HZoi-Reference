@@ -40,7 +40,7 @@ for _,node in ipairs(source.nodes)do
   assert(ctx.motion and ctx.source=='male_owner|excitement'and ctx.shakes.male_owner and ctx.shakes.female_owner,'Male completion starts shared slowdown without removing female shaking')
  else assert(not node.completion_responses,'Scenes without tasks stay free of completion responses')end
 end
-assert(count==11)
+assert(count==14)
 local nodes={}
 for _,node in ipairs(source.nodes)do nodes[node.id]=node end
 local rear=assert(nodes['hzoi.standing_rear'])
@@ -66,5 +66,5 @@ for _,node in ipairs(source.nodes)do
   assert(not node.task_completion_sounds.female);count=count+1
  else assert(not node.task_completion_sounds) end
 end
-assert(count==11,'Every authored activity with a male excitement task registers the one-shot')
-print('HZoi completion data passed: standing and bed cycle timing, male-only slowdown, female-only runtime response, both reference shaking profiles and unchanged male pelvis one-shot; idle and task caps preserved.')
+assert(count==14,'Every authored activity with a male excitement task registers the one-shot')
+print('HZoi completion data passed: standing, bed and sofa cycle timing, male-only slowdown, female-only runtime response, both reference shaking profiles and unchanged male pelvis one-shot; idle and task caps preserved.')

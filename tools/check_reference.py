@@ -48,7 +48,8 @@ def check():
     rights = json.loads((ROOT / 'ANIMATION-RIGHTS.json').read_text(encoding='utf-8'))
     assert rights['license_id'] == 'HZoi-Original-Animations-1.0'
     excluded = {entry['source'] for entry in rights['excluded_animations']}
-    assert excluded == {'HZOI_Standing_idle_F.fbx', 'HZOI_Standing_idle_M.fbx'}, 'Preserve standing body idle GPL grants'
+    assert excluded == {'HZOI_Standing_idle_F.fbx', 'HZOI_Standing_idle_M.fbx',
+                        'HZoi_sofa_idle_F.fbx', 'HZoi_sofa_idle_M.fbx'}, 'Preserve standing and sofa body idle GPL grants'
     assert all(entry['license'] == 'GPL-3.0-only' for entry in rights['excluded_animations'])
     for entry in rights['covered_animations']:
         rel = entry['asset'].split('.')[0].split('/' + PLUGIN + '/', 1)[1] + '.uasset'

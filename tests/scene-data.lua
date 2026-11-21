@@ -47,6 +47,7 @@ local linked=S.compile({docs[1],{source='incompatible',data=incompatible}});asse
 local snapshot={by_kind={scene_pack=docs}}
 for kind,file in pairs({tag_dictionary='tags',action_dictionary='actions'})do snapshot.by_kind[kind]={{owner='scenezoi',source=file,data=read('packs/scenezoi/metadata/'..file..'.json')}}end
 table.insert(snapshot.by_kind.tag_dictionary,{owner='hzoi',source='bed_tags',data=read(TEST_CONTENT_ROOT..'/packs/hzoi/metadata/bed_tags.json')})
+table.insert(snapshot.by_kind.tag_dictionary,{owner='hzoi',source='sofa_tags',data=read(TEST_CONTENT_ROOT..'/packs/hzoi/metadata/sofa_tags.json')})
 for kind,file in pairs({body_profile='body_layout',material_profile='skin_hair',coverage_attachment='region_attachment'})do snapshot.by_kind[kind]={{source=file,data=read(TEST_CONTENT_ROOT..'/packs/hzoi/profiles/'..file..'.json')}}end
 local profiles=P.compile(snapshot);assert(#profiles.warnings==0 and profiles.rules['hzoi.region_attachment'])
 for _,size in ipairs({'queen','single'})do
@@ -105,7 +106,7 @@ local function resolved_node(id)
 end
 assert(not Catalog.get('scenezoi.standing_idle').attachments['hzoi.region_attachment.male'],
  'A no-roster preview must not claim to know an actual participant life stage')
-for _,id in ipairs({'scenezoi.standing_idle','hzoi.standing_idle','hzoi.standing_hand_job'})do
+for _,id in ipairs({'scenezoi.standing_idle','hzoi.standing_idle','hzoi.standing_hand_job','scenezoi.sofa_idle','hzoi.sofa_idle','hzoi.sofa_handjob','hzoi.sofa_fellatio','hzoi.sofa_rear'})do
  local attached=resolved_node(id).attachments
  local spec=assert(attached['hzoi.region_attachment.male'])
  assert(spec.participant=='male' and spec.body_profile=='hzoi.body_layout' and spec.material_profile=='hzoi.skin_hair')

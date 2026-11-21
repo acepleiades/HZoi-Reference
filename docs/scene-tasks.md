@@ -31,10 +31,10 @@ mod that started the session. If the lookup reaches a named provider and it
 is missing, the task is unavailable in that scene. When definitions disagree,
 `scenezoi_runtime/mod_inventory.cfg` lists the providers and the fallback winner.
 
-HZoi 1.3.2 relies on step 2 for `excitement`. A second pack can still use its
-own definition in its own scenes. At a scene change, SceneZOI 1.3.12 keeps
+HZoi relies on step 2 for `excitement`. A second pack can still use its
+own definition in its own scenes. At a scene change, SceneZOI keeps
 each participant’s percentage and completion count and applies the
-destination scene’s rules. [SceneZOI task provider rules](https://github.com/acepleiades/SceneZOI/blob/v1.3.12/docs/scene-tasks.md#choose-which-definition-a-scene-uses)
+destination scene’s rules. [SceneZOI task provider rules](https://github.com/acepleiades/SceneZOI/blob/main/docs/scene-tasks.md#choose-which-definition-a-scene-uses)
 
 ## Set progress for the scene
 
