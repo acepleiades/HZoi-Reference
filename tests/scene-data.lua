@@ -53,6 +53,10 @@ for _,size in ipairs({'queen','single'})do
 end
 local body=profiles.body['hzoi.body_layout']
 assert(body.schema_version==2 and body.section==17 and body.coverage_bit==17)
+assert(body.patch_mesh=='/HZoi_660649D8/Compatibility/StockCoveragePatch.StockCoveragePatch')
+assert(body.patch_mesh_overrides['/NaturalSkin_B5AE5C0D/Mesh/SKM_Male_Base_NS.SKM_Male_Base_NS']==
+ '/HZoi_660649D8/Compatibility/ZoiBitsMaleCoveragePatch.ZoiBitsMaleCoveragePatch',
+ 'ZoiBits needs its fitted coverage patch without changing the stock-body default')
 assert(not body.mesh_name and not body.material_slot and not body.compatible_layouts,'The body profile must not require a known replacer or slot name')
 local function rejects_coverage(change,reason)
  local invalid=V.copy(snapshot)

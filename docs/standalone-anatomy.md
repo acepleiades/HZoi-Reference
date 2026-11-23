@@ -44,7 +44,9 @@ section and coverage bit 17. The stock patch's material slot is
 `shader_body_shader18`. The [material profile](../packs/hzoi/profiles/skin_hair.json)
 maps the source body and hair appearance to `Penis_001` and `Pubes_001`.
 Keep those names when using the supplied assets. A body replacer needs to
-preserve the section and coverage convention to use the same profile.
+preserve the section and coverage convention to use the same profile. Its
+cutout must also fit the patch. Use [coverage patches fitted to each body](body-coverage.md)
+when a body keeps that layout but changes the crotch shape or deformation.
 
 **Genital mesh attribution:** “Free Blender Model - The Vagrant by Ryan Reos”.
 The original asset is subject to its own license. See the

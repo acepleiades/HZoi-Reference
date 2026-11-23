@@ -5,7 +5,7 @@
 This is the authoring edition of **HZoi 1.4.0**. Use **SceneZOI 1.6.0 or
 newer** for its sofa scenes and shared pose/contact tags.
 It contains all 18 standing, bed and sofa scene definitions, the supporting pack data,
-34 rest-pose animation placeholders, the 10 supporting ModKit assets, and
+34 rest-pose animation placeholders, the 11 supporting ModKit assets, and
 silent replacements for all 702 proprietary audio sources. The original
 animation motion and recordings are not included.
 
@@ -27,6 +27,9 @@ animation motion and recordings are not included.
 - For more detail, see [voices](docs/voices.md), [expressions](docs/expressions.md),
   [shared scene tasks and definition precedence](docs/scene-tasks.md), and the
   [animation inventory](docs/animations.md).
+- For attachments for male genitals on different bodies, see
+  [coverage patches](docs/body-coverage.md). The profile keeps the stock default
+  and selects a different fit for the exact ZoiBits body mesh.
 
 For your own pack’s starting files and schema, use the
 [SceneZOI authoring guide](https://github.com/acepleiades/SceneZOI/blob/main/docs/authoring.md).
