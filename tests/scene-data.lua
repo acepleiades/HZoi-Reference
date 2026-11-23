@@ -46,16 +46,17 @@ local incompatible=V.copy(content);incompatible.nodes[1].participants.male.body=
 local linked=S.compile({docs[1],{source='incompatible',data=incompatible}});assert(#linked.warnings>0 and #linked.nodes['scenezoi.standing_idle'].navigation==0)
 local snapshot={by_kind={scene_pack=docs}}
 for kind,file in pairs({tag_dictionary='tags',action_dictionary='actions'})do snapshot.by_kind[kind]={{owner='scenezoi',source=file,data=read('packs/scenezoi/metadata/'..file..'.json')}}end
-for kind,file in pairs({body_profile='body_layout',material_profile='skin_hair',coverage_attachment='region_attachment'})do snapshot.by_kind[kind]={{source=file,data=read(TEST_CONTENT_ROOT..'/packs/hzoi/profiles/'..file..'.json')}}end
+snapshot.by_kind.body_profile={{owner='scenezoi',source='male_crotch',data=read('packs/scenezoi/profiles/male_crotch.json')}}
+for kind,file in pairs({material_profile='skin_hair',coverage_attachment='region_attachment'})do snapshot.by_kind[kind]={{source=file,data=read(TEST_CONTENT_ROOT..'/packs/hzoi/profiles/'..file..'.json')}}end
 local profiles=P.compile(snapshot);assert(#profiles.warnings==0 and profiles.rules['hzoi.region_attachment'])
 for _,size in ipairs({'queen','single'})do
  assert(profiles.rules['hzoi.region_attachment'].node_animations['hzoi.bed_'..size..'_aal_frontal']:match('^/Game/AAL/'))
 end
-local body=profiles.body['hzoi.body_layout']
+local body=profiles.body['scenezoi.male_crotch']
 assert(body.schema_version==2 and body.section==17 and body.coverage_bit==17)
-assert(body.patch_mesh=='/HZoi_660649D8/Compatibility/StockCoveragePatch.StockCoveragePatch')
+assert(body.patch_mesh=='/SceneZOI_93C44199/Compatibility/StockCoveragePatch.StockCoveragePatch')
 assert(body.patch_mesh_overrides['/NaturalSkin_B5AE5C0D/Mesh/SKM_Male_Base_NS.SKM_Male_Base_NS']==
- '/HZoi_660649D8/Compatibility/ZoiBitsMaleCoveragePatch.ZoiBitsMaleCoveragePatch',
+ '/SceneZOI_93C44199/Compatibility/ZoiBitsMaleCoveragePatch.ZoiBitsMaleCoveragePatch',
  'ZoiBits needs its fitted coverage patch without changing the stock-body default')
 assert(not body.mesh_name and not body.material_slot and not body.compatible_layouts,'The body profile must not require a known replacer or slot name')
 local function rejects_coverage(change,reason)
@@ -111,7 +112,7 @@ assert(not Catalog.get('scenezoi.standing_idle').attachments['hzoi.region_attach
 for _,id in ipairs({'scenezoi.standing_idle','hzoi.standing_idle','hzoi.standing_hand_job','scenezoi.sofa_idle','hzoi.sofa_idle','hzoi.sofa_handjob','hzoi.sofa_fellatio','hzoi.sofa_rear'})do
  local attached=resolved_node(id).attachments
  local spec=assert(attached['hzoi.region_attachment.male'])
- assert(spec.participant=='male' and spec.body_profile=='hzoi.body_layout' and spec.material_profile=='hzoi.skin_hair')
+ assert(spec.participant=='male' and spec.body_profile=='scenezoi.male_crotch' and spec.material_profile=='hzoi.skin_hair')
  assert(spec.mesh==rule.attachment.mesh and spec.when_undressed and spec.retain_for_session)
  assert(spec.animation and spec.animation==rule.node_animations[id])
  assert(V.equal(spec.retained_tracks,rule.node_animations))
@@ -127,7 +128,7 @@ assert(multi.attachments['hzoi.region_attachment.first'].animation==nil,'Unknown
 local packet=Catalog.simulation(node,{role='male'});assert(S.simulation(J.decode(J.encode(packet))).id==node.id)
 assert(packet.cleanup_layers[1]=='SceneZOI_Prototype_MaleAnatomy')
 Catalog.value.profiles={rules={}};assert(not next(resolved_node('scenezoi.standing_idle').attachments),'No content pack means no optional attachments')
-local example={a='Japanese 日本語 \n \t " \\',b=J.array(),c={d=true},n=1.25,z=J.null}
+local example={a='Japanese æ—¥æœ¬èªž \n \t " \\',b=J.array(),c={d=true},n=1.25,z=J.null}
 assert(V.equal(J.decode(J.encode(example)),example))
 local circular={};circular.self=circular;assert(not pcall(J.encode,circular));assert(not pcall(J.encode,{[1]=1,[3]=3}));assert(not pcall(J.encode,0/0))
 local Choose=require('SceneZOI.StartingScenes')

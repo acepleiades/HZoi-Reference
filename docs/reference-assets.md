@@ -44,7 +44,7 @@ such as `C:/dev/HZoi-Reference`. Git for Windows also supports
 
 Use a separate ModKit-registered project for this example. The native package ID
 is `HZoi_660649D8`, the same ID used by the player and production projects.
-The overlay includes 34 rest-pose animation placeholders and 11 supporting
+The overlay includes 34 rest-pose animation placeholders and 9 supporting
 native assets. See the [animation inventory](animations.md) for their timing.
 
 1. Copy the overlay's `Content` and `SourceAssets` into the separate working
@@ -106,7 +106,7 @@ not import production FBX files.
 When updating this reference, copy only the newly generated animation
 packages and their successful validation report into the checkout, update
 `reference-assets.json` to the verified hashes, then run
-`python tools/check_reference.py`. Keep the 11 supporting asset hashes
+`python tools/check_reference.py`. Keep the 9 supporting asset hashes
 unchanged unless you intentionally update one of those assets. Never copy
 FBX, Maya or Blender production sources, original animation packages,
 original SoundWaves, or backup archives into this repository or its history.

@@ -2,17 +2,20 @@
 
 **Looking for the mod?** [Download the free HZoi player ZIP](https://www.patreon.com/skyrimaceanimations/posts/scenezoi-hzoi-174452155). [Get SceneZOI](https://acepleiades.github.io/SceneZOI/).
 
-This is the authoring edition of **HZoi 1.4.0**. Use **SceneZOI 1.6.0 or
-newer** for its sofa scenes and shared pose/contact tags.
+This is the authoring edition of **HZoi 1.4.1**. Use **SceneZOI 1.6.3 or
+newer** for its shared neutral coverage profile, sofa scenes and pose/contact tags.
 It contains all 18 standing, bed and sofa scene definitions, the supporting pack data,
-34 rest-pose animation placeholders, the 11 supporting ModKit assets, and
+34 rest-pose animation placeholders, the 9 supporting ModKit assets, and
 silent replacements for all 702 proprietary audio sources. The original
 animation motion and recordings are not included.
 
+For authoring help and collaboration, join the
+[OStim/SceneZOI Community Discord server](https://discord.gg/RECvhVaRcU).
+
 ## Learn from the pack
 
-- Follow the [authoring walkthrough](docs/authoring-walkthrough.md) from a
-  working loop to furniture, character voices, and task completion. It
+- Follow the [authoring walkthrough](docs/authoring-walkthrough.md) to connect
+  furniture, character voices, and task completion in your scene. It
   explains why each feature is used and what to test in your own pack.
 - Open the [pack manifest](packs/hzoi.json) and [scene files](packs/hzoi/scenes/).
   Each scene has its own file. The manifest adds paths from SceneZOI’s
@@ -28,8 +31,8 @@ animation motion and recordings are not included.
   [shared scene tasks and definition precedence](docs/scene-tasks.md), and the
   [animation inventory](docs/animations.md).
 - For attachments for male genitals on different bodies, see
-  [coverage patches](docs/body-coverage.md). The profile keeps the stock default
-  and selects a different fit for the exact ZoiBits body mesh.
+  [SceneZOI coverage patches](https://github.com/acepleiades/SceneZOI/blob/main/docs/coverage-patches.md). The shared framework profile keeps the stock default
+  and selects the fitted patch for the exact ZoiBits body mesh.
 
 For your own pack’s starting files and schema, use the
 [SceneZOI authoring guide](https://github.com/acepleiades/SceneZOI/blob/main/docs/authoring.md).

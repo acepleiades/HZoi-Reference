@@ -1,7 +1,7 @@
 # Build a scene players can configure
 
-Start with a working loop. Then decide what the characters should look at,
-how they should sound, and what players should see when a task finishes.
+Start with the encounter you want to make. Decide what the characters should
+look at, how they should sound, and what players should see when a task finishes.
 These choices belong in the scene and its shared declarations. Gameplay mods
 can start the same scene through the API and get the same authored behavior.
 This checkout supplies rest-pose animation placeholders and silent audio.
@@ -140,3 +140,17 @@ then adjust Sound Effects separately. Watch both roles reach completion,
 test any caps that should hold a role below 100%, and verify navigation and
 Exit. Repeat with each optional library missing. The reference WAVs are
 silent, so use your own recordings or the HZoi player pack for listening tests.
+
+## Use these examples for your own scene
+
+Build the scene you intend to make and choose the systems that fit it. For
+example, a ported sexual scene can use separate male-genitals geometry in its
+rest pose, a chosen voice set for moans, contact SFX, and a task-completion
+response without a separate orgasm clip. Each solves a different part of the
+encounter; leaving them out should be a decision about the scene.
+
+The reference has rest-pose body tracks and silent audio. Use it to trace JSON
+and registration, then test your own clips, contact and audio in game. Follow
+[SceneZOI's authoring guide](https://github.com/acepleiades/SceneZOI/blob/main/docs/authoring.md)
+for packaging and checks. Ask for authoring help or coordinate shared definitions
+in the [OStim/SceneZOI Community Discord server](https://discord.gg/RECvhVaRcU).

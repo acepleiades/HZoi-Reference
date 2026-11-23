@@ -301,9 +301,9 @@ class CatalogTests(unittest.TestCase):
             build([ROOT/'packs/hzoi.json'],missing_framework,expression_project=content)
             self.assertFalse(missing_framework.exists())
             records=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
-            self.assertEqual(len(records),33)
+            self.assertEqual(len(records),32)
             self.assertEqual({row['owner']for row in records},{'hzoi'})
-            self.assertEqual({row['kind']for row in records},{'expression_set','scene_pack','body_profile','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization'})
+            self.assertEqual({row['kind']for row in records},{'expression_set','scene_pack','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization'})
 
     def test_authored_tags_use_the_shared_framework_dictionary(self):
         pack=load_pack(ROOT/'packs/hzoi.json')
@@ -330,9 +330,12 @@ class CatalogTests(unittest.TestCase):
             build(packs,project,expression_project=content)
             inventory=json.loads((content/'workspace/data_files.json').read_text(encoding='utf-8'))
             self.assertEqual(len(inventory['files']),1)
-            self.assertEqual(len(inventory['records']),33)
+            self.assertEqual(len(inventory['records']),32)
             framework_records=json.loads((project/'workspace/data_files.json').read_text(encoding='utf-8'))['records']
-            self.assertEqual(len(framework_records),16)
+            self.assertEqual(len(framework_records),17)
+            self.assertEqual([row['id'] for row in framework_records if row['kind']=='body_profile'],
+                             ['SceneZOI_Declaration_scenezoi__body_profile__male_crotch'])
+            self.assertFalse(any(row['kind']=='body_profile' for row in inventory['records']))
             self.assertEqual([row['id'] for row in framework_records if row['kind']=='scene_task'],
                              ['SceneZOI_Declaration_scenezoi__scene_task__excitement'])
             for entry in inventory['files']:
@@ -344,7 +347,7 @@ class CatalogTests(unittest.TestCase):
                     self.assertEqual(item['Query'],'Text_UI')
                     envelope=json.loads(item['Value']['Text'])
                     self.assertEqual(envelope['owner'],'hzoi')
-                    self.assertIn(envelope['kind'],['expression_set','scene_pack','body_profile','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization','tag_dictionary'])
+                    self.assertIn(envelope['kind'],['expression_set','scene_pack','material_profile','coverage_attachment','voice_archetype','voice_context','voice_set','localization','tag_dictionary'])
             other=project/'scenezoi_data/another_author.cfg';other.parent.mkdir(exist_ok=True);other.write_text('preserve another author')
             content_before=(content/'Content/JsonPatch/Text_UI_patch.json').read_bytes()
             build([FRAMEWORK/'packs/scenezoi.json'],project,expression_project=content)

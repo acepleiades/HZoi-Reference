@@ -2,6 +2,9 @@
 
 Download **HZoi_MaleAnatomy_v1.2.zip** from the
 [public Blender rigs post](https://www.patreon.com/skyrimaceanimations/posts/inzoi-blender-172792014).
+I recommend this mesh for packs using male genitals: it is the same mesh used
+by HZoi and by both the Maya and Blender rigs. Package your own copy to avoid
+requiring HZoi's fallback attachment. The download works with either editor.
 The ZIP contains editable ModKit assets, the male and female Blender rigs,
 both exporters, source files and a JSON template. Start with the ZIP's
 `README.md` for the import settings and step-by-step instructions.
@@ -11,7 +14,8 @@ both exporters, source files and a JSON template. Start with the ZIP's
 1. Create your own mod. Stage the ZIP's `Content/HZoiMaleAnatomy` folder under
    the base ModKit project's Content, then move the entire folder into your
    mod's Content in the editor. Save it and verify the skeletal mesh, skeleton,
-   materials, textures and stock coverage patch resolve. Use **Copy Reference**
+   materials and textures resolve. Use SceneZOI's built-in coverage patches;
+   you do not need to copy the ZIP's older stock patch into your mod. Use **Copy Reference**
    for your mod's object paths.
 2. Export each Zoi and the anatomy as separate FBX tracks with the same frame
    range and rate. Import the Zoi tracks against `SK_Base` and the anatomy track
@@ -19,8 +23,10 @@ both exporters, source files and a JSON template. Start with the ZIP's
    the pelvis fixed so SceneZOI can bind it to the Zoi's animated pelvis.
 3. Adapt the ZIP's `Example/packs` files. Replace the sample IDs and paths with
    your own. The example attaches only in its scene and registers a
-   `body_profile` and a `material_profile`. Together they drive clothing
-   coverage, the stock region patch and appearance matching. Set the scene's
+   `material_profile` for your attachment. Set its `body_profile` to
+   `scenezoi.male_crotch` instead of registering the ZIP's older body-profile
+   example. SceneZOI supplies the neutral coverage; your own material profile
+   handles appearance matching. Set the scene's
    duration and fps from the imported tracks.
 4. Stage the JSON with the
    [SceneZOI catalog builder](https://github.com/acepleiades/SceneZOI/blob/main/docs/authoring.md#files-and-native-project).
@@ -35,17 +41,21 @@ both exporters, source files and a JSON template. Start with the ZIP's
 
 HZoi uses a pack-wide [coverage attachment](../packs/hzoi/profiles/region_attachment.json)
 with per-scene animation mappings, including framework hubs. The ZIP uses a
-scene-local attachment to scope it to the new pack's example scene. SceneZOI
-currently allows one replacement region owner per participant. Enabling HZoi
-alongside another replacement can overlap its global coverage rule.
+scene-local attachment to scope it to the new pack's example scene. A scene-local
+replacement with a body profile takes priority over the automatic fallback.
+You can also register a named attachment variant and select it in the scene's
+`appearance[role].attachment_variants.body_region`. SceneZOI uses one region
+replacement per Zoi; selecting your copy replaces HZoi's fallback when both
+packs are installed. Do not add a second copy through the ordinary prop API.
+[Independent-pack setup and scene example](https://github.com/acepleiades/SceneZOI/blob/main/docs/authoring.md#how-do-i-make-my-animation-pack-independent-of-hzois-fallback-penis)
 
-The [body profile](../packs/hzoi/profiles/body_layout.json) shows schema 2 with
+The shared [body profile](https://github.com/acepleiades/SceneZOI/blob/main/packs/scenezoi/profiles/male_crotch.json) shows schema 2 with
 section and coverage bit 17. The stock patch's material slot is
 `shader_body_shader18`. The [material profile](../packs/hzoi/profiles/skin_hair.json)
 maps the source body and hair appearance to `Penis_001` and `Pubes_001`.
 Keep those names when using the supplied assets. A body replacer needs to
 preserve the section and coverage convention to use the same profile. Its
-cutout must also fit the patch. Use [coverage patches fitted to each body](body-coverage.md)
+cutout must also fit the patch. Use [SceneZOI coverage patches](https://github.com/acepleiades/SceneZOI/blob/main/docs/coverage-patches.md)
 when a body keeps that layout but changes the crotch shape or deformation.
 
 **Genital mesh attribution:** “Free Blender Model - The Vagrant by Ryan Reos”.

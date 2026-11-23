@@ -13,7 +13,7 @@
     "mesh": "/HZoi_660649D8/Attachments/HZoi_MaleAnatomy.HZoi_MaleAnatomy",
     "socket": "pelvis",
     "reference_bone": "pelvis",
-    "body_profile": "hzoi.body_layout",
+    "body_profile": "scenezoi.male_crotch",
     "material_profile": "hzoi.skin_hair",
     "retain_for_session": true
   },

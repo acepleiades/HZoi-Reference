@@ -182,10 +182,6 @@
   ],
   "data_files": [
     {
-      "kind": "body_profile",
-      "file": "hzoi/profiles/body_layout.json"
-    },
-    {
       "kind": "material_profile",
       "file": "hzoi/profiles/skin_hair.json"
     },

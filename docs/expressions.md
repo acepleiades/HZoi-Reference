@@ -2,7 +2,9 @@
 
 Read the [expression definitions](../packs/hzoi/expressions/) when you want to
 add a face to your own scene. Each scene selects a context for a role. SceneZOI
-looks it up in the Zoi's chosen set. A set can use the game's native clips.
+looks it up in the Zoi's chosen set. The player can give two Zois different
+facial personalities in the same animation, and those choices follow each Zoi
+across scenes and save files. A set can use the game's native clips.
 
 | Set | Appearance body | Idle examples | Pleasure examples |
 | --- | --- | --- | --- |
@@ -21,3 +23,9 @@ The Kiss context uses stock facial kissing clips at 4.5 seconds. The
 shows how to add a named pose, `scenezoi.open_o`, alongside the Pleasure
 context. Use a pose when you want control over a specific part of the face.
 [SceneZOI expression authoring](https://github.com/acepleiades/SceneZOI/blob/main/docs/expressions.md)
+
+Try two compatible Zois with different sets, navigate between Idle and Pleasure,
+and Exit. Their choices should remain while the temporary scene instructions
+are released. Check a sampled Kiss clip for closed eyelids and test the mouth
+pose on different head shapes. To make a set from start to finish, follow
+[Make an expression set](https://github.com/acepleiades/SceneZOI/blob/main/docs/expressions.md#authoring-your-own-sets).

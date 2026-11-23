@@ -4,16 +4,10 @@
   "files": [
     {
       "path": "Content/JsonPatch/Text_UI_patch.json",
-      "sha256": "cdf4620b7f9ee8e2c4644c0d81f387c8327966c911f4aa99787a9a287fd0b902"
+      "sha256": "12b2ce045c5e874ece31b6029a64c77e3b1ac155d6f9a050e94a1c9b443004f8"
     }
   ],
   "records": [
-    {
-      "id": "SceneZOI_Declaration_hzoi__body_profile__body_layout",
-      "owner": "hzoi",
-      "kind": "body_profile",
-      "source": "body_layout.json"
-    },
     {
       "id": "SceneZOI_Declaration_hzoi__coverage_attachment__region_attachment",
       "owner": "hzoi",
